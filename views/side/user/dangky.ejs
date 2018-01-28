@@ -1,239 +1,106 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-  <meta charset="UTF-8">
-  <title>Dang Ky</title>
-  <link rel="shortcut icon" href="logo-icon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../javascripts/bootstrap/css/bootstrap-theme.min.css">
-  <script src="../javascripts/jquery.min.js"></script>
-  <script src="../javascripts/bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../javascripts/bootstrap/css/bootstrap.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../javascripts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/stylesheets/side/user/dangky.css">
-  <script src="/javascripts/side/Home.js"></script>
+    <% include ../header.ejs%>
+    <link rel="stylesheet" href="/stylesheets/side/user/dangky.css">
+    <script src="/javascripts/jquery.validate.min.js"></script>
 </head>
 <body>
-<header id="header-menu">
-  <div class="container">
-    <div class="row sub-menu">
-      <div class="col-lg-8 icon-logo">
-        <a href="#" >
-          <img src="../images/Home/certicom-logo-hi.png">
-        </a>
-      </div>
-      <div class="col-lg-4 sreach-menu">
-        <ul class="list-inline">
-          <li class="contact">
-            <a href="#">Contact</a>
-          </li>
-          <li class="sreach">
-            <form>
-              <input type="text" class="form-control" placeholder="Search for...">
-            </form>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row menu">
-      <div class="">
-        <nav class="navbar nav-tabs">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#" style="">My Store</a>
-          </div>
+<% include ../menu.ejs%>
 
-          <div class="collapse navbar-collapse js-navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <span class="caret"></span></a>
-                <ul class="dropdown-menu mega-dropdown-menu" >
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Features</li>
-                      <li><a href="#">Auto Carousel</a></li>
-                      <li><a href="#">Carousel Control</a></li>
-                      <li><a href="#">Left & Right Navigation</a></li>
-                      <li><a href="#">Four Columns Grid</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">Fonts</li>
-                      <li><a href="#">Glyphicon</a></li>
-                      <li><a href="#">Google Fonts</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Plus</li>
-                      <li><a href="#">Navbar Inverse</a></li>
-                      <li><a href="#">Pull Right Elements</a></li>
-                      <li><a href="#">Coloured Headers</a></li>
-                      <li><a href="#">Primary Buttons & Default</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Much more</li>
-                      <li><a href="#">Easy to Customize</a></li>
-                      <li><a href="#">Calls to action</a></li>
-                      <li><a href="#">Custom Fonts</a></li>
-                      <li><a href="#">Slide down on Hover</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <span class="caret"></span></a>
-                <ul class="dropdown-menu mega-dropdown-menu">
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Features</li>
-                      <li><a href="#">Auto Carousel</a></li>
-                      <li><a href="#">Carousel Control</a></li>
-                      <li><a href="#">Left & Right Navigation</a></li>
-                      <li><a href="#">Four Columns Grid</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">Fonts</li>
-                      <li><a href="#">Glyphicon</a></li>
-                      <li><a href="#">Google Fonts</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Plus</li>
-                      <li><a href="#">Navbar Inverse</a></li>
-                      <li><a href="#">Pull Right Elements</a></li>
-                      <li><a href="#">Coloured Headers</a></li>
-                      <li><a href="#">Primary Buttons & Default</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Much more</li>
-                      <li><a href="#">Easy to Customize</a></li>
-                      <li><a href="#">Calls to action</a></li>
-                      <li><a href="#">Custom Fonts</a></li>
-                      <li><a href="#">Slide down on Hover</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">Store locator</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" style="margin-right: 15px;" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
-
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Sign in</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Forget account</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Support</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!-- /.nav-collapse -->
-        </nav>
-      </div>
+<div class="">
+  <div class="container banner" >
+    <div class="col-lg-6 image">
+      <h2>
+        <a type="button" href="#">Certicom Products and Services</a>
+      </h2>
     </div>
   </div>
-  <div class="container sub-menu-hidden">
-    <div class="row ">
-      <div class="col-lg-8 icon-logo">
-        <a href="#" >
-          <img src="../images/Panner/certicom-logo-hi-white.png">
-        </a>
-      </div>
-      <div class="col-lg-4 sreach-menu">
-        <ul class="list-inline">
-          <li class="contact">
-            <a href="#">Contact</a>
-          </li>
-          <li class="sreach">
-            <form>
-              <input type="text" class="form-control" placeholder="Search for...">
-            </form>
-          </li>
-        </ul>
-      </div>
+  <div class="container crumbs-wrapper " >
+    <div class="col-lg-10">
+      <a type="button" href="#">Home  >  Products  >  Certicom's Managed PKI Service  >  Certicom Device Certification Authority For Zigbee Smart Energy</a>
     </div>
-    <div class="row" style="margin-top: 10px ">
-      <div class="col-lg-8 ">
-        <a href="#" >
-          Home
-        </a>
-      </div>
-    </div>
-  </div>
-</header>
-
-<div class="container banner" >
-  <div class="col-lg-6 image">
-    <h2>
-      <a type="button" href="#">Certicom Products and Services</a>
-    </h2>
-  </div>
-</div>
-<div class="container crumbs-wrapper " >
-  <div class="col-lg-10">
-    <a type="button" href="#">Home  >  Products  >  Certicom's Managed PKI Service  >  Certicom Device Certification Authority For Zigbee Smart Energy</a>
   </div>
 </div>
 
 <div class="container body" style="padding: 5px">
   <div class="row Creation">
     <h2 style="margin: 15px">Account Creation</h2>
-    <form>
-      <div class="row form-row" style="margin-bottom: 0px">
-        <div class="form-group col-md-6" style="padding-left: 5px">
-          <label for="inputEmail">Email Address (this will be your username)</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+    <h6 style="margin: 15px">
+      <i><i style="color: red">*</i> Items in <strong>bold</strong> are required fields.</i>
+    </h6>
+    <form action="" method="post" id="form-post" >
+      <div class=" row form-row" style="margin: 0px" >
+        <div class="form-group col-md-6" >
+          <label for="inputEmail">Email Address (this will be your Email Address)</label>
+          <input type="email" name="email" class="form-control" id="inputEmail" placeholder="Email">
         </div>
-        <div class="form-group col-md-6" style="padding-left: 5px">
-          <label for="inputEmail">Email Address (this will be your username)</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+        <div class="form-group col-md-6" >
+          <label for="inputPhone">Phone</label>
+          <input type="text" name="phone"  class=" form-control input-medium bfh-phone"  id="inputPhone"  data-format="+84 (ddd) ddd-dddd" data-country="US">
         </div>
       </div>
-      <div class="form-row">
-
+      <div class=" row form-row" style="margin: 0px">
         <div class="form-group col-md-6">
           <label for="inputPassword">Password</label>
-          <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+          <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password">
         </div>
-
         <div class="form-group col-md-6">
-          <label for="inputPassword">Verify Password</label>
-          <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
+          <label for="inputPassword1">Verify Password</label>
+          <input type="password" name="passwordVeri" class="form-control" id="inputPassword1" placeholder="Password">
+        </div>
+        <div class="form-group col-md-12" style="margin-bottom: 0px">
+          <h6 style="color: #0a0a0a;margin-top: 0px">
+            <i>Mật khẩu tối thiểu 8 ký tự,1 chữ cái hoa,1 chữ cái thường,1 chữ số.</i>
+          </h6>
         </div>
       </div>
-      <div class="form-group col-lg-6">
-        <label for="inputFirstName">First Name</label>
-        <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-      </div>
-      <div class="form-group col-md-6">
-        <label for="inputLastName">Last Name</label>
-        <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+      <div class=" row form-row" style="margin: 0px">
+        <div class="form-group col-lg-6">
+          <label for="inputFirstName">First Name</label>
+          <input type="text" name="firstName" class="form-control" id="inputFirstName" placeholder="First Name">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputLastName">Last Name</label>
+          <input type="text" name="lastName" class="form-control" id="inputLastName" placeholder="Last Name">
+        </div>
       </div>
 
-      <div class="row form-row" style="margin-bottom: 0px">
-        <div class="form-group " style="padding-left: 5px">
-          <label for="inputEmail">Email Address</label>
-          <input type="email" class="form-control" id="" placeholder="Email">
+      <div class="row form-row" style="margin-bottom: 0px;margin-top: 0px;">
+        <div class="form-group col-md-6" style="padding-left: 5px;margin-bottom: 0px">
+          <label for="inputEmail">Address</label>
+        </div>
+        <div class="form-group col-md-6" style="margin-bottom: 0px">
+          <label for="inputEmail">Address</label>
         </div>
       </div>
+
+      <div id="countries_states2" class=" form-group col-md-6 bfh-selectbox bfh-countries" data-name="country" data-country="VN" data-flags="true">
+        <input type="hidden" name="country" value="" >
+        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
+        <div class="bfh-selectbox-options" style="margin: 15px">
+          <div role="listbox">
+            <ul role="option" > </ul>
+          </div>
+        </div>
+      </div>
+      <div class=" form-group col-md-6 bfh-selectbox bfh-states" data-name="states" data-country="countries_states2">
+        <input type="hidden" name="states" value="" >
+        <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
+        <div class="bfh-selectbox-options" >
+          <div role="listbox">
+            <ul role="option" > </ul>
+          </div>
+        </div>
+      </div>
+
       <div class="form-group col-lg-6">
-        <label for="inputCompany">Company</label>
-        <input type="text" class="form-control" id="inputCompany" placeholder="Company">
+        <label for="inputCompany" style="font-weight: 500">Company</label>
+        <input type="text" name="company" class="form-control" id="inputCompany" placeholder="Company">
       </div>
       <div class="form-group col-md-6">
-        <label for="inputWeb">Web Address</label>
-        <input type="text" class="form-control" id="inputWeb" placeholder="Web Address">
+        <label for="inputWeb" style="font-weight: 500">Web Address</label>
+        <input type="text" name="webAddress" class="form-control" id="inputWeb" placeholder="Web Address">
       </div>
       <div class="row form-row" style="margin-bottom: 0px">
         <div class="form-group license-agree " style="padding-left: 5px">
@@ -308,11 +175,11 @@
 
       <div class="form-group col-md-6">
         <div class="form-check">
-          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <input class="form-check-input" type="checkbox" id="gridCheck" name="gridCheck">
           <label class="form-check-label" for="gridCheck">
             I have read and accept the terms of the agreement
           </label>
-          <div class="g-recaptcha" data-sitekey="6LcFbgsUAAAAAIO3S82DPIl-P-8eRcZkiBonC_bC"><div style="width: 304px; height: 78px; margin: 15px 0px"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LcFbgsUAAAAAIO3S82DPIl-P-8eRcZkiBonC_bC&amp;co=aHR0cHM6Ly93d3cuY2VydGljb20uY29tOjQ0Mw..&amp;hl=en&amp;v=v1514934548259&amp;size=normal&amp;cb=48k1nsrkwkul" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>
+          <!--<div class="g-recaptcha" data-sitekey="6LcFbgsUAAAAAIO3S82DPIl-P-8eRcZkiBonC_bC"><div style="width: 304px; height: 78px; margin: 15px 0px"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?k=6LcFbgsUAAAAAIO3S82DPIl-P-8eRcZkiBonC_bC&amp;co=aHR0cHM6Ly93d3cuY2VydGljb20uY29tOjQ0Mw..&amp;hl=en&amp;v=v1514934548259&amp;size=normal&amp;cb=48k1nsrkwkul" width="304" height="78" role="presentation" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;  display: none; "></textarea></div></div>-->
         </div>
         <button type="submit" class="btn btn-primary">Sign in</button>
       </div>
@@ -320,51 +187,5 @@
   </div>
 </div>
 
-<div class="footer">
-  <div >
-    <hr>
-  </div>
-  <div class="container ">
-    <div class="col-lg-9">
-      <small>
-        <div class="parbase section text"><p>Copyright @ 2016 Certicom Corp., a subsidiary of BlackBerry.</p>
-        </div>
-      </small>
-    </div>
-    <div class="col-lg-3">
-      <small>
-        <ul class=" list-inline">
-          <!-- <li><a href="/content/certicom/en.html" id="footer-home">Home</a></li> -->
-          <li><a href="/content/certicom/en/privacy-policy.html" id="footer-privacy">Privacy Policy</a></li>
-          <li><a href="/content/certicom/en/legal.html" id="footer-legal">Legal</a></li>
-          <li><a href="/content/certicom/en/site-map.html" id="footer-sitemapl">Site Map</a></li>
-          <li><a href="/content/certicom/en/about/contact-us.html" id="footer-contact">Contact</a></li>
-        </ul>
-      </small>
-    </div>
-  </div>
-</div>
-
-<script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 200) {
-            $(".back-top").css('display','block')
-            $(".sub-menu-hidden").css('display','block')
-        } else {
-            $(".back-top").css('display','none')
-            $(".sub-menu-hidden").css('display','none')
-        }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-    }
-</script>
-
-</body>
-</html>
+<script src="/javascripts/side/dangky.js">
+<% include ../footer.ejs%>

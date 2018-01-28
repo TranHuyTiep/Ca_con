@@ -1,0 +1,50 @@
+<div class="footer">
+  <div >
+    <hr>
+  </div>
+  <div class="container ">
+    <div class="col-lg-8">
+      <small>
+        <div class="parbase section text"><p>Copyright @ 2016 Certicom Corp., a subsidiary of BlackBerry.</p>
+        </div>
+      </small>
+    </div>
+    <div class="col-lg-4">
+      <small>
+        <ul class=" list-inline">
+          <!-- <li><a href="/content/certicom/en.html" id="footer-home">Home</a></li> -->
+          <li><a href="/content/certicom/en/privacy-policy.html" id="footer-privacy">Privacy Policy</a></li>
+          <li><a href="/content/certicom/en/legal.html" id="footer-legal">Legal</a></li>
+          <li><a href="/content/certicom/en/site-map.html" id="footer-sitemapl">Site Map</a></li>
+          <li><a href="/content/certicom/en/about/contact-us.html" id="footer-contact">Contact</a></li>
+        </ul>
+      </small>
+    </div>
+  </div>
+</div>
+<div class="back-top">
+  <i class="fa fa-3x fa-arrow-circle-up" aria-hidden="true" onclick="topFunction()" ></i>
+</div>
+
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 250) {
+            $(".back-top").css('display','block')
+            $(".sub-menu-hidden").css('display','block')
+        } else {
+            $(".back-top").css('display','none')
+            $(".sub-menu-hidden").css('display','none')
+        }
+    }
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<script src="/javascripts/bootrap-form-helper/js/bootstrap-formhelpers.min.js"></script>
+</body>
+</html>
