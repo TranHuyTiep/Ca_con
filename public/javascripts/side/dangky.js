@@ -11,6 +11,11 @@ $(document).ready(function() {
         return this.optional( element ) || /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/.test( value );
     }, 'Please enter a valid email address.');
 
+    jQuery.validator.addMethod("checkPhone", function(value, element) {
+        // allow any non-whitespace characters as the host part
+        return this.optional( element ) || /^\+84[- .]?\(?(?:(1|8|9)\d\d)\)?[- .]?\d\d\d[- .]?\d\d\d?\d$/.test( value );
+    }, 'Please enter a valid phone number.');
+
     $('#form-post').validate({
         rules : {
             email : {
@@ -28,7 +33,8 @@ $(document).ready(function() {
             },
             phone :{
                 required    : true,
-                minlength   :  17
+                // minlength   :  17,
+                checkPhone  : true
             },
             firstName:{
                 required:true
@@ -55,7 +61,7 @@ $(document).ready(function() {
                 equalTo  : 'Mật khẩu không khớp'
             },
             phone : {
-
+                // checkPhone:"Số điện thoại không khớp"
             },
             firstName : {
                 required : "First Name không được để trống",
