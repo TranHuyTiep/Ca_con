@@ -4,6 +4,9 @@ var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var session = require('express-session');
+var passport = require('passport');
+var flash = require('connect-flash')
 
 var array_rounter = require('./router')
 
@@ -12,6 +15,22 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
+
+//session
+app.use(session({
+    secret : "huytiep",
+    saveUninitialized: true,
+    resave: true,
+    name: 'HuyTiep',
+    // cookie: {
+    //     httpOnly: true,
+    //     secure: true
+    // }
+}))
+
+app.use(passport.initialize());
+app.use(passport.session());
+app.use(flash())
 
 // uncomment after placing your favicon in /public
 app.use(favicon(path.join(__dirname, 'public', 'logo-icon.png')));
