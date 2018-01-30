@@ -1,11 +1,60 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
-</html>
+<div class="col-sm-3 col-md-3">
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            <span class="glyphicon glyphicon-folder-close"> </span>
+            Tài Khoản
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            Thông tin
+          </a>
+          <a href="#" class="list-group-item">Đơn hàng</a>
+          <a href="#" class="list-group-item">Đổi mật khẩu</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
+            <span class="glyphicon glyphicon-file"></span>
+            Danh sách
+          </a>
+        </h4>
+      </div>
+      <div id="collapseFour" class="panel-collapse collapse">
+        <div class="list-group">
+          <a href="#" class="list-group-item active">
+            Tạo chứng chỉ số
+          </a>
+          <a href="#" class="list-group-item">CA</a>
+          <a href="#" class="list-group-item">Chữ ký số</a>
+          <a href="#" class="list-group-item">Verify chữ ký</a>
+          <a href="#" class="list-group-item">Private Key</a>
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-heart">
+                             </span>Phản hồi</a>
+        </h4>
+      </div>
+      <div id="collapseFive" class="panel-collapse collapse">
+        <div class="list-group">
+          <a href="#" class="list-group-item">
+            <h4 class="list-group-item-heading">Chân thành cảm ơn đóng góp của quý khách</h4>
+            <p class="list-group-item-text">Mọi đóng góp của quý khách giúp chúng tôi hoàn thiện hệ thống tốt hơn.</p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

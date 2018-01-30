@@ -1,11 +1,4 @@
 $(document).ready(function() {
-    $('#inputEmail').on('input', function() {
-        var input=$(this);
-        var inputEmail=input.val();
-        if(is_name){input.removeClass("invalid").addClass("valid");}
-        else{input.removeClass("valid").addClass("invalid");}
-    });
-
     jQuery.validator.addMethod("checkPass", function(value, element) {
         // allow any non-whitespace characters as the host part
         return this.optional( element ) || /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,}$/.test( value );

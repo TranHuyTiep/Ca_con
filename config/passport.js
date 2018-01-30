@@ -15,13 +15,16 @@ module.exports = function(passport) {
 
     // used to serialize the user for the session
     passport.serializeUser(function(user, done) {
-        done(null, user.email);
+        done(null, user.Id_user);
     });
 
     // used to deserialize the user
     passport.deserializeUser(function(id, done) {
-        db_user.searchUser(id).then(function (result) {
-            done(err, rows[0]);
+        db_user.searchUserID(id).then(function (result) {
+            done(null, result[0].Id_user);
+
+        }).catch(function (error) {
+            done(error, null);
         })
     });
 
@@ -45,6 +48,8 @@ module.exports = function(passport) {
             if(data.password==data.passwordVeri){
                 delete data.gridCheck
                 delete data.passwordVeri
+                let Id_user = crypto.randomBytes(8).toString('hex');
+                data.Id_user  = Id_user
                 data.password = help.generateHash(data.password)
                 db_user.searchUser(data.email).then(function (result) {
                     if(result.length==0){
@@ -87,15 +92,15 @@ module.exports = function(passport) {
         function(req, email, password, done) { // callback with email and password from our form
             let data  =  req.body
             db_user.searchUser(data.email).then(function (result) {
-
                 if(result.length!=0){
                     if(result[0].active !=1 ){
                         return done(null, false, req.flash('signupMessage', 'User not active'));
                     }else {
                         if (!( help.validPassword(password,result[0].password))){
                             return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.'));
+                        }else {
+                            return done(null, result[0]);
                         }
-                        return done(null, rows[0]);
                     }
                 }else {
                     return done(null, false, req.flash('signupMessage', 'No user found.'));

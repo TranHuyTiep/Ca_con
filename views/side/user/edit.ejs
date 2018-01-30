@@ -3,178 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Edit</title>
-  <link rel="shortcut icon" href="/logo-icon.png">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="../../javascripts/bootstrap/css/bootstrap-theme.min.css">
-  <script src="../../javascripts/jquery.min.js"></script>
-  <script src="../../javascripts/bootstrap/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="../../javascripts/bootstrap/css/bootstrap.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../../javascripts/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="/stylesheets/side/user/user.css">
-  <link rel="stylesheet" href="/stylesheets/side/footer.css">
-  <link rel="stylesheet" href="/stylesheets/side/user/edit.css">
-  <script src="/javascripts/side/home.js"></script>
+    <% include header.ejs%>
+  <link rel="stylesheet" href="/stylesheets/side/user/dangky.css">
+  <link rel="stylesheet" href="/javascripts/bootrap-form-helper/css/bootstrap-formhelpers.min.css"></link>
+  <script src="/javascripts/jquery.validate.min.js"></script>
+  <script src="/javascripts/side/dangky.js"></script>
 </head>
 <body >
-<header id="header-menu">
-  <div class="container" style="padding: 0px 30px">
-    <div class="row sub-menu">
-      <div class="col-lg-8 icon-logo">
-        <a href="#" >
-          <img src="../../images/Home/certicom-logo-hi.png">
-        </a>
-      </div>
-      <div class="col-lg-4 sreach-menu">
-        <ul class="list-inline">
-          <li class="contact">
-            <a href="#">Contact</a>
-          </li>
-          <li class="sreach">
-            <form>
-              <input type="text" class="form-control" placeholder="Search for...">
-            </form>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div class="row menu">
-      <div class="">
-        <nav class="navbar nav-tabs">
-          <div class="navbar-header">
-            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#" style="">My Store</a>
-          </div>
-
-          <div class="collapse navbar-collapse js-navbar-collapse">
-            <ul class="nav navbar-nav">
-              <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Men <span class="caret"></span></a>
-                <ul class="dropdown-menu mega-dropdown-menu" >
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Features</li>
-                      <li><a href="#">Auto Carousel</a></li>
-                      <li><a href="#">Carousel Control</a></li>
-                      <li><a href="#">Left & Right Navigation</a></li>
-                      <li><a href="#">Four Columns Grid</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">Fonts</li>
-                      <li><a href="#">Glyphicon</a></li>
-                      <li><a href="#">Google Fonts</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Plus</li>
-                      <li><a href="#">Navbar Inverse</a></li>
-                      <li><a href="#">Pull Right Elements</a></li>
-                      <li><a href="#">Coloured Headers</a></li>
-                      <li><a href="#">Primary Buttons & Default</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Much more</li>
-                      <li><a href="#">Easy to Customize</a></li>
-                      <li><a href="#">Calls to action</a></li>
-                      <li><a href="#">Custom Fonts</a></li>
-                      <li><a href="#">Slide down on Hover</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li class="dropdown mega-dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Women <span class="caret"></span></a>
-                <ul class="dropdown-menu mega-dropdown-menu">
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Features</li>
-                      <li><a href="#">Auto Carousel</a></li>
-                      <li><a href="#">Carousel Control</a></li>
-                      <li><a href="#">Left & Right Navigation</a></li>
-                      <li><a href="#">Four Columns Grid</a></li>
-                      <li class="divider"></li>
-                      <li class="dropdown-header">Fonts</li>
-                      <li><a href="#">Glyphicon</a></li>
-                      <li><a href="#">Google Fonts</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Plus</li>
-                      <li><a href="#">Navbar Inverse</a></li>
-                      <li><a href="#">Pull Right Elements</a></li>
-                      <li><a href="#">Coloured Headers</a></li>
-                      <li><a href="#">Primary Buttons & Default</a></li>
-                    </ul>
-                  </li>
-                  <li class="col-sm-3">
-                    <ul>
-                      <li class="dropdown-header">Much more</li>
-                      <li><a href="#">Easy to Customize</a></li>
-                      <li><a href="#">Calls to action</a></li>
-                      <li><a href="#">Custom Fonts</a></li>
-                      <li><a href="#">Slide down on Hover</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>
-              <li><a href="#">Store locator</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" style="margin-right: 15px;" data-toggle="dropdown" role="button" aria-expanded="false">My account <span class="caret"></span></a>
-
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">Sign in</a></li>
-                  <li><a href="#">Sign Up</a></li>
-                  <li><a href="#">Forget account</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">Support</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
-  </div>
-  <div class="container sub-menu-hidden">
-    <div class="row ">
-      <div class="col-lg-8 icon-logo">
-        <a href="#" >
-          <img src="../../images/Panner/certicom-logo-hi-white.png">
-        </a>
-      </div>
-      <div class="col-lg-4 sreach-menu">
-        <ul class="list-inline">
-          <li class="contact">
-            <a href="#">Contact</a>
-          </li>
-          <li class="sreach">
-            <form>
-              <input type="text" class="form-control" placeholder="Search for...">
-            </form>
-          </li>
-        </ul>
-      </div>
-    </div>
-    <div class="row" style="margin-top: 10px ">
-      <div class="col-lg-8 ">
-        <a href="#" >
-          Home
-        </a>
-      </div>
-    </div>
-  </div>
-</header>
+<% include ../menu.ejs%>
 
 <div class="container content">
   <div class="row">
@@ -241,32 +77,60 @@
     <div class="col-sm-9 col-md-9 infor">
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h3 class="panel-title">Sưa thông tin</h3>
+          <h3 class="panel-title">Sửa thông tin</h3>
         </div>
         <div class="panel-body" style="margin: 15px 0px;">
-          <form>
-            <div class="row form-row" >
-              <div class="form-group " >
-                <label for="inputAddress">Address</label>
-                <input type="address" class="form-control" id="inputAddress" placeholder="Address">
+          <form action="" method="post" id="form-post" >
+
+            <div class=" row form-row" style="margin: 0px">
+              <div class="form-group col-lg-6">
+                <label for="inputFirstName">First Name</label>
+                <input type="text" name="firstName" class="form-control" id="inputFirstName" placeholder="First Name" value="<%= data.firstName%>">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" name="lastName" class="form-control" id="inputLastName" placeholder="Last Name" value="<%= data.lastName%>">
               </div>
             </div>
 
-            <div class="row form-row" >
-              <div class="form-group " >
-                <label for="inputCompany">Company</label>
-                <input type="text" class="form-control" id="inputCompany" placeholder="Company">
+            <div class="row form-row" style="margin-bottom: 0px;margin-top: 0px;">
+              <div class="form-group col-md-6" style=";margin-bottom: 0px">
+                <label for="inputEmail">Address</label>
+              </div>
+              <div class="form-group col-md-6" style="margin-bottom: 0px">
+                <label for="inputEmail">Address</label>
               </div>
             </div>
 
-            <div class="row form-row" >
-              <div class="form-group " >
-                <label for="inputWeb">Web Address</label>
-                <input type="text" class="form-control" id="inputWeb" placeholder="Web">
+            <div id="countries_states2" class=" form-group col-md-6 bfh-selectbox bfh-countries" data-name="country" data-country="VN" data-flags="true">
+              <input type="hidden" name="country" value="<%= data.country%>" >
+              <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
+              <div class="bfh-selectbox-options" style="margin: 15px">
+                <div role="listbox">
+                  <ul role="option" > </ul>
+                </div>
+              </div>
+            </div>
+            <div class=" form-group col-md-6 bfh-selectbox bfh-states" data-name="states" data-country="countries_states2">
+              <input type="hidden" name="states" value="<%= data.states%>" >
+              <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
+              <div class="bfh-selectbox-options" >
+                <div role="listbox">
+                  <ul role="option" > </ul>
+                </div>
               </div>
             </div>
 
-            <div class="row form-row">
+            <div class="form-group col-lg-6">
+              <label for="inputCompany" style="font-weight: 500">Company</label>
+              <input type="text" name="company" class="form-control" id="inputCompany" placeholder="Company" value="<%= data.company%>">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputWeb" style="font-weight: 500">Web Address</label>
+              <input type="text" name="webAddress" class="form-control" id="inputWeb" placeholder="Web Address" value="<%= data.webAddress%>">
+            </div>
+
+            <div class="form-group col-md-8">
               <button type="submit" class="btn btn-primary">Save</button>
             </div>
           </form>

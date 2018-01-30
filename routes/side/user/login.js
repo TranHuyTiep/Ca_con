@@ -7,7 +7,7 @@ var help = require('../../../help/helper')
 
 /* GET home page. */
 router.route('/dangky')
-    .get(help.check_login,function(req, res, next) {
+    .get(function(req, res, next) {
         res.render('side/user/dangky');
     })
     .post(passport.authenticate('local-signup', {
@@ -19,17 +19,38 @@ router.route('/dangky')
 
 
 /*Edit password*/
-router.get('/edit', function(req, res, next) {
-    res.render('side/user/edit');
-});
+router.route('/edit')
+    .get( function(req, res, next) {
+        let Id_user = req.user
+        db_User.searchUserID(Id_user).then(function (result) {
+            delete result[0].password
+            delete result[0].active
+            delete result[0].Id_user
+            delete result[0].id
+            delete result[0].content
+            console.log(result[0])
+            res.render('side/user/edit',{data:result[0]});
+        })
+    })
+    .post(function (req,res,next) {
+        let data = req.body
+        let Id_user = req.user
+        db_User.updateUser(Id_user,data).then(function (result) {
+            res.redirect('home');
+        }).catch(function (error) {
+
+        })
+
+    })
+;
 
 router.route('/login')
     .get(function(req, res, next) {
         res.render('side/user/login');
     })
-    .post(passport.authenticate('local-signup', {
-        successRedirect : '/user/login',
-        failureRedirect : '/user/dangky',
+    .post(passport.authenticate('local-login', {
+        successRedirect : '/user/home',
+        failureRedirect : '/user/login',
         failureFlash : true
     }))
 ;
