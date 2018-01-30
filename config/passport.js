@@ -1,4 +1,9 @@
 var pool  =  require('../config/database')
+var db_model = require('../model/db_model')
+var db_user = require('../model/user')
+var crypto = require("crypto");
+var help = require('../help/helper')
+var sendMail = require('../help/send_mail')
 var LocalStrategy   = require('passport-local').Strategy;
 module.exports = function(passport) {
 
@@ -10,14 +15,14 @@ module.exports = function(passport) {
 
     // used to serialize the user for the session
     passport.serializeUser(function(user, done) {
-        done(null, user.id);
+        done(null, user.email);
     });
 
     // used to deserialize the user
     passport.deserializeUser(function(id, done) {
-        connection.query("select * from admin where id = "+id,function(err,rows){
+        db_user.searchUser(id).then(function (result) {
             done(err, rows[0]);
-        });
+        })
     });
 
 
@@ -34,34 +39,37 @@ module.exports = function(passport) {
             passReqToCallback : true // allows us to pass back the entire request to the callback
         },
         function(req, email, password, done) {
-            console.log(req.body)
+            let data  =  req.body
+            let active = crypto.randomBytes(32).toString('hex');
+            data.active  = active
+            if(data.password==data.passwordVeri){
+                delete data.gridCheck
+                delete data.passwordVeri
+                data.password = help.generateHash(data.password)
+                db_user.searchUser(data.email).then(function (result) {
+                    if(result.length==0){
+                        db_model.insert('users',data).then(function (result) {
+                            let newUser = new Object()
+                            newUser.email = data.email
+                            newUser.active = false
+                            let link = help.fullUrl(req,'user/dangky/active/'+active)
+                            sendMail.sendKichHoatDk(data.email,link,function (error,result) {
+                                console.log(error)
+                            })
+                            return done(null, newUser,req.flash('signupMessage', 'Email kích hoạt đã được gửi.'));
+                        }).catch(function (error) {
+                            return done(error);
+                        })
+                    }else {
+                        return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
+                    }
 
-            // find a user whose email is the same as the forms email
-            // we are checking to see if the user trying to login already exists
-            // connection.query("select * from admin where email = '"+email+"'",function(err,rows){
-            //     console.log(rows);
-            //     console.log("above row object");
-            //     if (err)
-            //         return done(err);
-            //     if (rows.length) {
-            //         return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
-            //     } else {
-            //
-            //         // if there is no user with that email
-            //         // create the user
-            //         var newUserMysql = new Object();
-            //
-            //         newUserMysql.email    = email;
-            //         newUserMysql.password = password; // use the generateHash function in our user model
-            //
-            //         var insertQuery = "INSERT INTO admin ( email, password ) values ('" + email +"','"+ password +"')";
-            //         console.log(insertQuery);
-            //         connection.query(insertQuery,function(err,rows){
-            //             newUserMysql.id = rows.insertId;
-            //             return done(null, newUserMysql);
-            //         });
-            //     }
-            // });
+                }).catch(function (error) {
+                    return done(error);
+                })
+            }else {
+                return done(false);
+            }
         }));
 
     // =========================================================================
@@ -77,24 +85,23 @@ module.exports = function(passport) {
             passReqToCallback : true // allows us to pass back the entire request to the callback
         },
         function(req, email, password, done) { // callback with email and password from our form
+            let data  =  req.body
+            db_user.searchUser(data.email).then(function (result) {
 
-            connection.query("SELECT * FROM `admin` WHERE `email` = '" + email + "'",function(err,rows){
-                if (err)
-                    return done(err);
-                if (!rows.length) {
-                    return done(null, false, req.flash('loginMessage', 'No user found.')); // req.flash is the way to set flashdata using connect-flash
+                if(result.length!=0){
+                    if(result[0].active !=1 ){
+                        return done(null, false, req.flash('signupMessage', 'User not active'));
+                    }else {
+                        if (!( help.validPassword(password,result[0].password))){
+                            return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.'));
+                        }
+                        return done(null, rows[0]);
+                    }
+                }else {
+                    return done(null, false, req.flash('signupMessage', 'No user found.'));
                 }
-
-                // if the user is found but the password is wrong
-                if (!( admin.validPassword(password,rows[0].password)))
-
-                    return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.')); // create the loginMessage and save it to session as flashdata
-
-                // all is well, return successful user
-                return done(null, rows[0]);
-
-            });
-
+            }).catch(function (error) {
+                return done(error);
+            })
         }));
-
 };

@@ -114,7 +114,7 @@ db_model.prototype.insert = async function (table,data) {
 function update(table,id,data) {
     return new Promise(function (resolve, reject) {
         pool.getConnection(function(err, connection) {
-            var query = "UPDATE ?? SET id = ? WHERE id = ?";
+            var query = "UPDATE ?? SET ? WHERE id = ?";
                     connection.query(query,[table,data,id],function (error,result) {
                         if (error){
                             reject(error)
