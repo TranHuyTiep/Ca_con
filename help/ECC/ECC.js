@@ -2,7 +2,6 @@ var bignum = require('bignum');
 var crypto = require('crypto');
 var can_bac_hai =  require('./can_bac_hai')
 
-
 curve = {
     name:'secp256k1',
     p:bignum('ffffffff00000001000000000000000000000000ffffffffffffffffffffffff',base=16),
@@ -26,8 +25,6 @@ function inverse_mod(k, p) {
     p =  bignum(p)
     return k.invertm(p)
 }
-// console.log(inverse_mod(8,11))
-
 
 /**
  * y^2 = x^3 +ax + b
@@ -49,7 +46,6 @@ function is_on_curve(point) {
     return result==0
 }
 
-// console.log(is_on_curve([curve.X,curve.Y]))
 
 /**
  *
@@ -155,7 +151,6 @@ function scalar_mult(k, point){
         templ = add_point(templ, templ)
 
         k=k.shiftRight(1);
-
     }
     // return result
 
@@ -211,7 +206,7 @@ function x_to_Point(x){
 
 
 /**
- * hash sha512
+ * hash sha256
  * @param message
  * @returns {bigInt.BigInteger | *}
  */
@@ -273,14 +268,7 @@ function verify_sign(public_key, message, signature){
     }
 }
 
-// var x = make_keypair()
-// pub = x.public_key
-// pri = x.private_key
-// var y = make_keypair()
-// var pub_y = y.public_key
-// var sign = sign_message(pri,'tranhuytiep')
-// console.log(sign)
-// console.log(verify_sign(pub,'tranhuytiep95',sign))
+
 
 /**
  * tạo cert
@@ -302,13 +290,19 @@ function create_cert(id,public_key_client,private_key_CA,public_key_CA) {
     var mes_hash = hash.update(a).digest().toString('hex')
     var s = bignum(mes_hash,base=16)
     if (P[1].mod(2).eq(0)) {
-        return {P:P[0].mul(10),id: id,s: (s.mul(k).add(c)).mod(curve.n)}
+        return {P:P[0].mul(10),id: id,s: (s.mul(k).add(c)).mod(curve.n),C:public_key_CA}
     } else{
-        return {P:P[0].mul(10).add(1),id: id,s: (s.mul(k).add(c)).mod(curve.n)}
+        return {P:P[0].mul(10).add(1),id: id,s: (s.mul(k).add(c)).mod(curve.n),C:public_key_CA}
     }
 }
 
-
+/**
+ * tao key tu cert
+ * @param private_key
+ * @param public_key_CA
+ * @param cert
+ * @returns {[null,null,null]}
+ */
 function create_key_to_cert(private_key,public_key_CA,cert) {
     var P = cert.P, id = cert.id,s = cert.s
     P = x_to_Point(P)
@@ -329,12 +323,14 @@ function create_key_to_cert(private_key,public_key_CA,cert) {
 
 }
 
-
-
-
-
-function create_key_to_third_party(public_key_CA,cert){
-    var  P = cert[0], id = cert[1],s = cert[2]
+/**
+ * tinh public key tu cert
+ * @param public_key_CA
+ * @param cert
+ * @returns {*}
+ */
+function create_key_to_third_party(cert){
+    var  P = cert.P, id = cert.id,s = cert.s,public_key_CA = cert.C
     var public_key_CA = x_to_Point(public_key_CA)
     P = x_to_Point(P)
     var a = P[0].toString()
@@ -350,18 +346,6 @@ function create_key_to_third_party(public_key_CA,cert){
     }
 }
 
-// var client = make_keypair()
-// console.log('client',client)
-// var ca = make_keypair()
-// console.log(ca)
-// var private_key=client.private_key,public_key = client.public_key
-// var private_key_CA=ca.private_key,public_key_CA = ca.public_key
-// cert = (create_cert('Hello client',public_key,private_key_CA,public_key_CA))
-// x=create_key_to_cert(private_key,public_key_CA,cert)
-// console.log(cert)
-// console.log(x)
-// console.log(create_key_to_third_party(public_key_CA,cert))
-
 function make_public_key(private_key){
     var private_key = bignum(private_key)
     var public_key = [bignum('')]
@@ -373,11 +357,39 @@ function make_public_key(private_key){
     }
 }
 
-var priva = '24759591462846120382401544067961915304144449666759304319461423667541017549863'
-var public ='483660952981732867406743740858667548923206169871659386247570893174275333083890'
-var a = '754310038029066392028554932275352308423639400149113357851795145296806618999321'
+// var priva = '24759591462846120382401544067961915304144449666759304319461423667541017549863'
+// var public ='483660952981732867406743740858667548923206169871659386247570893174275333083890'
+// var a = '754310038029066392028554932275352308423639400149113357851795145296806618999321'
 
-console.log(scalar_mult(priva,x_to_Point(a)))
+/*Test*/
+// console.log(scalar_mult(priva,x_to_Point(a)))
+
+// var x = make_keypair()
+// pub = x.public_key
+// pri = x.private_key
+// var y = make_keypair()
+// var pub_y = y.public_key
+// var sign = sign_message(pri,'tranhuytiep')
+// console.log(sign)
+// console.log(verify_sign(pub,'tranhuytiep',sign))
+
+// var client1 = make_keypair()
+// var client2 = make_keypair()
+// var ca = make_keypair()
+// var private_key_CA=ca.private_key,public_key_CA = ca.public_key
+// var private_key1 = client1.private_key,public_key1 = client1.public_key
+// var private_key2 = client2.private_key,public_key2 = client2.public_key
+//
+// cert1 = (create_cert('Hello client',public_key1,private_key_CA,public_key_CA))
+// cert2 = (create_cert('Hello client1',public_key2,private_key_CA,public_key_CA))
+// x1=create_key_to_cert(private_key1,public_key_CA,cert1)
+// x2=create_key_to_cert(private_key2,public_key_CA,cert2)
+// // console.log(cert)
+// // console.log(x)
+// // public_key_x = scalar_mult(x,[curve.X,curve.Y])
+// // console.log(public_key_x)
+// console.log(scalar_mult(x1,x_to_Point(create_key_to_third_party(cert2))))
+// console.log(scalar_mult(x2,x_to_Point(create_key_to_third_party(cert1))))
 
 module.exports.create_cert = create_cert;
 module.exports.make_keypair = make_keypair;
@@ -385,3 +397,4 @@ module.exports.create_key_to_cert = create_key_to_cert;
 module.exports.make_public_key = make_public_key
 module.exports.create_cert = create_cert
 module.exports.ecc = curve
+
