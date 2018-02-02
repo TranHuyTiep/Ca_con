@@ -1,0 +1,21 @@
+.clipboard-copy-button {
+    position: absolute;
+    text-align: center;
+    top: -6px;
+    right: 15px;
+    width: 27px;
+    height: 27px;
+    border-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #aaa;
+    border-bottom: none;
+    background-color: #fafafa;
+    color: #333;
+}
+.clipboard-copy-target{
+    border-top-right-radius: 0;
+}
+.input-group-addon{
+    padding: 4px 12px;
+}

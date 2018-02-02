@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tạo chứng chỉ số</title>
+    <% include header.ejs%>
+  <link rel="stylesheet" href="/stylesheets/side/user/dangky.css">
+  <link rel="stylesheet" href="/javascripts/bootrap-form-helper/css/bootstrap-formhelpers.min.css"></link>
+
+  <link rel="stylesheet" href="/stylesheets/side/user/createCert.css">
+  <script src="/javascripts/BigInteger.min.js"></script>
+  <script src="/javascripts/ECC.js"></script>
+  <script src="/javascripts/jquery.validate.min.js"></script>
+  <script src="/javascripts/side/dangkyCert.js"></script>
+</head>
+<body >
+<% include ../menu.ejs%>
+
+<div class="container content">
+  <div class="row">
+      <%include menudoc.ejs%>
+    <div class="col-sm-9 col-md-9 infor">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Tạo chứng chỉ số</h3>
+        </div>
+        <div class="panel-body" style="margin: 15px 0px;">
+          <form action="" method="" id="form-post" >
+
+            <div class=" row form-row" style="margin: 0px">
+              <div class="form-group col-lg-6">
+                <label for="inputPassphrase">Passphrase to protect the private key</label>
+                <input type="password" name="passphrase" class="form-control" id="inputPassphrase" placeholder="Passphrase" value="">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputVerifyPassphrase">Verify Passphrase</label>
+                <input type="password" name="verifyPassphrase" class="form-control" id="inputVerifyPassphrase" placeholder="Passphrase" value="">
+              </div>
+            </div>
+
+            <div class="row form-row" style="margin-bottom: 10px;">
+              <div class="form-group col-md-6" style=";margin-bottom: 0px">
+                <div>
+                  <label for="r">r</label>
+                  <textarea class="form-control clipboard-copy-target" id="r" name="r" cols="100" rows="8"></textarea>
+                  <button type="button" class="clipboard-copy-button" id="save_button1" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></button>
+                </div>
+              </div>
+              <div class="form-group col-md-6" style="margin-bottom: 0px">
+                <div>
+                  <label for="R">R = rG</label>
+                  <textarea class="form-control clipboard-copy-target" id="R" name="R" cols="100" rows="8"></textarea>
+                  <button type="button" class="clipboard-copy-button" id="save_button2" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-lg-12">
+              <button type="button" style="" class="btn btn-primary" id="generate_r" title="Generate r">Generate r</button>
+            </div>
+
+            <div class="form-group col-lg-6">
+              <label for="inputIdentity" style="font-weight: 500">Identity</label>
+              <input type="text" name="identity" class="form-control" id="inputIdentity" placeholder="Identity" >
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputWeb" style="font-weight: 500">Web Address</label>
+              <div class="bfh-datepicker" data-min="today"  data-close="false">
+              </div>
+            </div>
+
+            <div class="form-group col-md-8 send">
+              <button type="submit" class="btn btn-primary" data-target="#notify">Generate Certs</button>
+            </div>
+            <div class="modal fade" id="notify" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog " role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Chú ý !</h5>
+
+                  </div>
+                  <div class="modal-body">
+                     Lưu lại giá trị r trước khi đăng ký chứng chỉ.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" id='dangky'class="btn btn-primary ">Đăng Ký</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <% include ../footer.ejs%>
+</footer>
+<script>
+
+    $('.list-group a').removeClass( "active " )
+    $('.panel-collapse').removeClass( "in " )
+    $('.cert').addClass("active");
+    $('.danhsach').addClass("in");
+    $(document).ready(function() {
+        $('#generate_r').click(function () {
+            var r = document.getElementById("r").innerHTML = bigInt.randBetween(0,curve.n);
+            var R = make_keypair(r).public_key
+            document.getElementById("R").innerHTML = R
+        })
+
+        //post
+        $('#dangky').click(function() {
+            let R = $('#R').val()
+            let inputPassphrase = $('#inputPassphrase').val()
+            let inputVerifyPassphrase = $('#inputVerifyPassphrase').val()
+            let inputIdentity = $('#inputIdentity').val()
+            let timeValid  = $('.bfh-datepicker input').val()
+            $.ajax({
+                url: '',
+                type: 'POST',
+                dataType: 'text/json',
+                data: {
+                    R: R,
+                    inputPassphrase:inputPassphrase,
+                    inputIdentity:inputIdentity,
+                    timeValid:timeValid
+                },
+                success : function(result) {
+                    // called after the ajax has returned successful response
+                    alert(result); // alerts the response
+                },
+                error: function (error) {
+                    alert(error)
+                }
+            })
+
+        });
+    })
+</script>
+</body>
+</html>

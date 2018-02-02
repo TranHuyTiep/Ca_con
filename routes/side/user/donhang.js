@@ -5,5 +5,4 @@ var ecc = require('../../../help/ECC/ECC')
 router.get('/donhang', function(req, res, next) {
     res.render('side/user/donhang');
 });
-console.log(ecc.ecc)
 module.exports = router;

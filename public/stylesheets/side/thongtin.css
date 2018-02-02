@@ -76,7 +76,7 @@ body {
 .banner{
     width: 100%;
     padding: 50px 100px;
-    background: url("/images/Panner/hp_hdr_graphic.jpg");
+    background: url("http://localhost:3000/images/Panner/hp_hdr_graphic.jpg");
 }
 
 .banner .image h1{

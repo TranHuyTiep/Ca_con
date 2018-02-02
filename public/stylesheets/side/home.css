@@ -82,7 +82,7 @@ body {
     width: 100%;
     padding: 50px 100px;
     margin-bottom: 20px;
-    background: url("/images/Panner/hp_hdr_graphic.jpg");
+    background: url("http://localhost:3000/images/Panner/hp_hdr_graphic.jpg");
 }
 
 .banner h1,h2{
