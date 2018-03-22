@@ -40,7 +40,6 @@ router.route('/edit')
         }).catch(function (error) {
 
         })
-
     })
 ;
 

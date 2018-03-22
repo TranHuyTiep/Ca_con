@@ -290,9 +290,9 @@ function create_cert(id,public_key_client,private_key_CA,public_key_CA) {
     var mes_hash = hash.update(a).digest().toString('hex')
     var s = bignum(mes_hash,base=16)
     if (P[1].mod(2).eq(0)) {
-        return {P:P[0].mul(10),id: id,s: (s.mul(k).add(c)).mod(curve.n),C:public_key_CA}
+        return {P:(P[0].mul(10)).toString(),id: id,s: ((s.mul(k).add(c)).mod(curve.n)).toString(),C:public_key_CA}
     } else{
-        return {P:P[0].mul(10).add(1),id: id,s: (s.mul(k).add(c)).mod(curve.n),C:public_key_CA}
+        return {P:(P[0].mul(10).add(1)).toString(),id: id,s: ((s.mul(k).add(c)).mod(curve.n)).toString(),C:public_key_CA}
     }
 }
 
@@ -303,10 +303,10 @@ function create_cert(id,public_key_client,private_key_CA,public_key_CA) {
  * @param cert
  * @returns {[null,null,null]}
  */
-function create_key_to_cert(private_key,public_key_CA,cert) {
-    var P = cert.P, id = cert.id,s = cert.s
+function create_key_to_cert(private_key,cert) {
+    var P = bignum(cert.P), id = cert.id,s = bignum(cert.s)
     P = x_to_Point(P)
-    public_key_CA = x_to_Point(public_key_CA)
+    public_key_CA = x_to_Point(bignum(cert.C))
     var a = P[0].toString()
     a = a + id
     var hash = crypto.createHash('sha256');
@@ -330,7 +330,7 @@ function create_key_to_cert(private_key,public_key_CA,cert) {
  * @returns {*}
  */
 function create_key_to_third_party(cert){
-    var  P = cert.P, id = cert.id,s = cert.s,public_key_CA = cert.C
+    var  P = bignum(cert.P), id = cert.id,s = bignum(cert.s),public_key_CA = cert.C
     var public_key_CA = x_to_Point(public_key_CA)
     P = x_to_Point(P)
     var a = P[0].toString()
@@ -358,8 +358,7 @@ function make_public_key(private_key){
 }
 
 
-// var priva = '24759591462846120382401544067961915304144449666759304319461423667541017549863'
-// var public ='483660952981732867406743740858667548923206169871659386247570893174275333083890'
+
 // var a = '754310038029066392028554932275352308423639400149113357851795145296806618999321'
 
 /*Test*/
@@ -383,10 +382,10 @@ function make_public_key(private_key){
 //
 // cert1 = (create_cert('Hello client',public_key1,private_key_CA,public_key_CA))
 // cert2 = (create_cert('Hello client1',public_key2,private_key_CA,public_key_CA))
-// x1=create_key_to_cert(private_key1,public_key_CA,cert1)
-// x2=create_key_to_cert(private_key2,public_key_CA,cert2)
+// x1=create_key_to_cert(private_key1,cert1)
+// x2=create_key_to_cert(private_key2,cert2)
 // // console.log(cert)
-// // console.log(x)
+// console.log(x)
 // // public_key_x = scalar_mult(x,[curve.X,curve.Y])
 // // console.log(public_key_x)
 // console.log(scalar_mult(x1,x_to_Point(create_key_to_third_party(cert2))))

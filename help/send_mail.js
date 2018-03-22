@@ -44,7 +44,7 @@ function send_file(email,subject,file,text,callback) {
         text:text,
         attachments: [
             {   // file on disk as an attachment
-                filename: 'private_key.txt',
+                filename: 'CertECC.txt',
                 path: file // stream this file
             }
         ]

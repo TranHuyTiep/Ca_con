@@ -6,7 +6,7 @@ var db_model = require('../../../model/db_model')
 var help = require('../../../help/helper')
 
 /*Edit password*/
-router.get('/home', function(req, res, next) {
+router.get('/home',help.isLoggedIn, function(req, res, next) {
     let Id_user = req.user
     db_User.searchUserID(Id_user).then(function (result) {
         delete result[0].password

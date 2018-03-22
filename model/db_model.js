@@ -168,5 +168,5 @@ db_model.prototype.deleteId = async function (table,id) {
 }
 
 var model = new db_model()
-
 module.exports = model
+

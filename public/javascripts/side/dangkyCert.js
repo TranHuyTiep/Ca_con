@@ -23,7 +23,10 @@ $(document).ready(function() {
             },
             identity:{
                 required : true
-            }
+            },
+            cert:{
+                required:true
+            },
 
         },
         messages : {
@@ -42,6 +45,9 @@ $(document).ready(function() {
             },
             R : {
                 required : "R chưa được khởi tạo.Error.",
+            },
+            cert: {
+                required : "Cert không được để trống",
             },
 
         },
@@ -62,5 +68,37 @@ $(document).ready(function() {
         }
 
     })
+
+    var textFile = null
+    function makeTextFile(text) {
+        var data = new Blob([text], {type: 'text/plain'});
+
+        // If we are replacing a previously generated file we need to
+        // manually revoke the object URL to avoid memory leaks.
+        if (textFile !== null) {
+            window.URL.revokeObjectURL(textFile);
+        }
+
+        var textFile = window.URL.createObjectURL(data);
+
+        return textFile;
+    }
+
+    $('#save_button1').click(function () {
+        let r = $('#r').val()
+        let key = $('#inputPassphrase').val()
+        var encrypted = CryptoJS.AES.encrypt(r, key)
+        var url = makeTextFile(encrypted.toString())
+        $('#save_button1').attr("href", url );
+        $('#save_button1').click()
+    })
+
+    $('#save_button2').click(function () {
+        let R = $('#R').val()
+        var url = makeTextFile(R)
+        $('#save_button2').attr("href", url );
+        $('#save_button2').click()
+    })
+
 
 });

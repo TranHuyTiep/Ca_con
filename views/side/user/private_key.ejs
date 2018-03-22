@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tạo Khóa</title>
+    <% include header.ejs%>
+  <link rel="stylesheet" href="/stylesheets/side/user/dangky.css">
+  <link rel="stylesheet" href="/javascripts/bootrap-form-helper/css/bootstrap-formhelpers.min.css"></link>
+
+  <link rel="stylesheet" href="/stylesheets/side/user/createCert.css">
+  <script src="/javascripts/BigInteger.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="/javascripts/ECC.js"></script>
+  <script src="/javascripts/jquery.validate.min.js"></script>
+  <script src="/javascripts/aes.js"></script>
+  <script src="/javascripts/side/private_key.js"></script>
+  <STYLE>
+    .btn-bs-file{
+      position:relative;
+    }
+    .btn-bs-file input[type="file"]{
+      position: absolute;
+      top: -9999999;
+      filter: alpha(opacity=0);
+      opacity: 0;
+      width:0;
+      height:0;
+      outline: none;
+      cursor: inherit;
+    }
+  </STYLE>
+</head>
+<body >
+<% include ../menu.ejs%>
+
+<div class="container content">
+  <div class="row">
+      <%include menudoc.ejs%>
+    <div class="col-sm-9 col-md-9 infor">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Tạo chứng chỉ số</h3>
+        </div>
+        <div class="panel-body" style="margin: 15px 0px;">
+          <div action="" method="" id="form-post" >
+
+            <div class=" row form-row" style="margin: 0px">
+              <div class="form-group col-lg-12">
+                <label for="inputPassphrase">Passphrase</label>
+                <input type="text" name="passphrase" class="form-control" id="inputPassphrase" placeholder="Passphrase" value="">
+              </div>
+            </div>
+
+            <div class="row form-row" style="margin-bottom: 10px;">
+              <div class="form-group col-md-6" style=";margin-bottom: 0px">
+                <div>
+                  <div class="col-sm-12" style="margin-bottom:10px;padding-left: 0px">
+                    <label class="btn-bs-file btn btn-sm btn-success">
+                      <i class="fa fa-plus" title="Add r" ></i>
+                      Add r ...
+                      <input type="file" accept='text/plain' onchange='openFile(event,"r")' />
+                    </label>
+                  </div>
+                  <textarea class="form-control clipboard-copy-target" id="r" name="r" cols="100" rows="8"></textarea>
+                </div>
+              </div>
+              <div class="form-group col-md-6" style="margin-bottom: 0px">
+                <div>
+                  <div class="col-sm-12" style="margin-bottom:10px;padding-left: 0px">
+                    <label class="btn-bs-file btn btn-sm btn-success">
+                      <i class="fa fa-plus" title="Add Cert" ></i>
+                      Add Cert ...
+                      <input type="file"  accept='text/plain' onchange='openFile(event,"cert")' />
+                    </label>
+                  </div>
+                  <textarea class="form-control clipboard-copy-target" id="cert" name="cert" cols="100" rows="8"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="form-group col-md-8 ">
+              <button type="submit" class="btn btn-primary generateKey" data-target="#notify">Generate Key</button>
+            </div>
+            <div class="row form-row" style="margin-bottom: 10px;">
+              <div class="form-group col-md-12" style=";margin-bottom: 0px">
+                <div>
+                  <label for="r">Key</label>
+                  <textarea class="form-control clipboard-copy-target" id="Key" name="Key" cols="100" rows="8"></textarea>
+                  <a type="button" download="Key.txt" class="clipboard-copy-button" id="save_button1" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer>
+    <% include ../footer.ejs%>
+</footer>
+<script>
+
+    $('.list-group a').removeClass( "active " )
+    $('.panel-collapse').removeClass( "in " )
+    $('.prk').addClass("active");
+    $('.danhsach').addClass("in");
+    var openFile = function(event,id) {
+        var input = event.target;
+        var reader = new FileReader();
+        reader.onload = function(){
+            var text = reader.result;
+            var node = document.getElementById(id);
+            node.innerText = text;
+        };
+        reader.readAsText(input.files[0]);
+    };
+    $('.generateKey').click(function() {
+        let r = $('#r').val()
+        let passPhrase = $('#inputPassphrase').val()
+        let cert = $('#cert').val()
+        if(r&&passPhrase&&cert){
+            var certBytes  = CryptoJS.AES.decrypt(cert, passPhrase);
+            cert = certBytes.toString(CryptoJS.enc.Utf8);
+            var rBytes  = CryptoJS.AES.decrypt(r, passPhrase);
+            r = rBytes.toString(CryptoJS.enc.Utf8);
+            var key = create_key_to_cert(r,JSON.parse(cert))
+            if(key[2]==true){
+                $("#Key").val(key[0].toString(base=16))
+            }else {
+                alert("Thông tin nhập bị lỗi.")
+            }
+        }else {
+            alert("Chưa nhập đủ thông tin.")
+        }
+
+    });
+
+</script>
+</body>
+</html>

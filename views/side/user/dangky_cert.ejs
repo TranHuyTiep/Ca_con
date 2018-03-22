@@ -12,6 +12,7 @@
   <script src="/javascripts/ECC.js"></script>
   <script src="/javascripts/jquery.validate.min.js"></script>
   <script src="/javascripts/side/dangkyCert.js"></script>
+  <script src="/javascripts/aes.js"></script>
 </head>
 <body >
 <% include ../menu.ejs%>
@@ -30,11 +31,10 @@
             <div class=" row form-row" style="margin: 0px">
               <div class="form-group col-lg-6">
                 <label for="inputPassphrase">Passphrase to protect the private key</label>
-                <input type="password" name="passphrase" class="form-control" id="inputPassphrase" placeholder="Passphrase" value="">
+                <input type="text" name="passphrase" class="form-control" id="inputPassphrase" placeholder="Passphrase" value="">
               </div>
-              <div class="form-group col-md-6">
-                <label for="inputVerifyPassphrase">Verify Passphrase</label>
-                <input type="password" name="verifyPassphrase" class="form-control" id="inputVerifyPassphrase" placeholder="Passphrase" value="">
+              <div class="form-group col-lg-8">
+                <button type="button" style="" class="btn btn-primary" id="generate_r" title="Generate r">Generate r</button>
               </div>
             </div>
 
@@ -43,27 +43,25 @@
                 <div>
                   <label for="r">r</label>
                   <textarea class="form-control clipboard-copy-target" id="r" name="r" cols="100" rows="8"></textarea>
-                  <button type="button" class="clipboard-copy-button" id="save_button1" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></button>
+                  <a type="button" download="r.txt" class="clipboard-copy-button" id="save_button1" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></a>
                 </div>
               </div>
               <div class="form-group col-md-6" style="margin-bottom: 0px">
                 <div>
                   <label for="R">R = rG</label>
                   <textarea class="form-control clipboard-copy-target" id="R" name="R" cols="100" rows="8"></textarea>
-                  <button type="button" class="clipboard-copy-button" id="save_button2" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></button>
+                  <a type="button"  download="R.txt" class="clipboard-copy-button" id="save_button2" title="Click me to Save." data-clipboard-target="private_key"><i class="fa fa-save fa-fw"></i></a>
                 </div>
               </div>
             </div>
-            <div class="form-group col-lg-12">
-              <button type="button" style="" class="btn btn-primary" id="generate_r" title="Generate r">Generate r</button>
-            </div>
+
 
             <div class="form-group col-lg-6">
               <label for="inputIdentity" style="font-weight: 500">Identity</label>
               <input type="text" name="identity" class="form-control" id="inputIdentity" placeholder="Identity" >
             </div>
             <div class="form-group col-md-6">
-              <label for="inputWeb" style="font-weight: 500">Web Address</label>
+              <label for="inputWeb" style="font-weight: 500">Valid days</label>
               <div class="bfh-datepicker" data-min="today"  data-close="false">
               </div>
             </div>
@@ -80,6 +78,7 @@
                   </div>
                   <div class="modal-body">
                      Lưu lại giá trị r trước khi đăng ký chứng chỉ.
+                     Cert được gửi vào email đăng ký.
                   </div>
                   <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -110,30 +109,29 @@
             var R = make_keypair(r).public_key
             document.getElementById("R").innerHTML = R
         })
-
         //post
         $('#dangky').click(function() {
             let R = $('#R').val()
             let inputPassphrase = $('#inputPassphrase').val()
-            let inputVerifyPassphrase = $('#inputVerifyPassphrase').val()
             let inputIdentity = $('#inputIdentity').val()
             let timeValid  = $('.bfh-datepicker input').val()
             $.ajax({
                 url: '',
-                type: 'POST',
-                dataType: 'text/json',
+                type: 'post',
+                dataType: 'json',
                 data: {
                     R: R,
-                    inputPassphrase:inputPassphrase,
-                    inputIdentity:inputIdentity,
-                    timeValid:timeValid
+                    Identity:inputIdentity,
+                    timeValid:timeValid,
+                    email : '<%= email%>',
+                    Id_user: '<%= Id_user%>',
+                    passphrase:inputPassphrase,
                 },
-                success : function(result) {
-                    // called after the ajax has returned successful response
-                    alert(result); // alerts the response
+                success:function (result) {
+                    window.location.replace("/user/privateKey");
                 },
-                error: function (error) {
-                    alert(error)
+                error :function (error) {
+                    console.log(error)
                 }
             })
 

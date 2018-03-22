@@ -1,3 +1,41 @@
-<h1><%= message %></h1>
-<h2><%= error.status %></h2>
-<pre><%= error.stack %></pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <% include side/header.ejs%>
+    <style>
+        .connent {
+            height: 350px;
+        }
+        .sub-menu-hidden{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<% include side/menu.ejs%>
+
+
+<div class="container connent" >
+    <div class="col-lg-6" >
+        <h1><%= err.message%></h1>
+        <h3><%= err.status%></h3>
+        <h3>
+            <a type="button" href="#"><%= err.statusCode%></a>
+        </h3>
+    </div>
+</div>
+
+<footer>
+    <% include side/footer.ejs%>
+</footer>
+
+</body>
+<script>
+    $('.list-group a').removeClass( "active" )
+    $('.panel-collapse').removeClass( "in " )
+    $('.tt').addClass( "active" );
+    $('.thongtin').addClass("in");
+</script>
+</html>
