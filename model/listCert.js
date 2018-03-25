@@ -31,12 +31,73 @@ db_listCA.prototype.getCertUser = async function (userId) {
     }
 }
 
+/**
+ * get cert for id
+ * @param Id
+ * @returns {Promise}
+ */
+function getCertById (id) {
+    return new Promise(function (resolve, reject) {
+        pool.getConnection(function(err, connection) {
+            let query = "SELECT * FROM listCert WHERE Identity = ? "
+            connection.query(query,(id),function (error,result) {
+                if (error){
+                    reject(error)
+                }else {
+                    resolve(result)
+                    connection.release();
+                }
+            })
+        });
+    })
+}
+
+db_listCA.prototype.getCertById = async function (id) {
+    try{
+        let result = await getCertById(id);
+        return result
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+
+/**
+ * update thong tin Cert
+ * @param table
+ * @param user_id
+ * @param data
+ * @returns {Promise}
+ */
+function updateCert(Identity,data) {
+    return new Promise(function (resolve, reject) {
+        pool.getConnection(function(err, connection) {
+            var query = "UPDATE listCert SET ? WHERE Identity = ?";
+            connection.query(query,[data,Identity],function (error,result) {
+                if (error){
+                    reject(error)
+                }else {
+                    resolve(error,result)
+                    connection.release();
+                }
+            })
+        })
+    })
+}
+
+db_listCA.prototype.updateCert = async function (Identity,data) {
+    try{
+        let result = await updateCert(Identity,data);
+        return result
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+
 var model = new db_listCA()
 
-// model.getCertUser('d17325feb227cfa7').then(function (e) {
+// model.getCertById('192.168.109.25').then(function (e) {
 //     console.log(e)
 // })
-// var date = new Date()
-// date.setTime(1517655569838)
-// console.log(date.toLocaleString())
 module.exports = model

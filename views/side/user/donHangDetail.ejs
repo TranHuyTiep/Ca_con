@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+    <% include header.ejs%>
+  <style>
+    .cert,.R{
+      width: 45em;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body >
+<% include menu.ejs%>
+
+<div class="container content">
+  <div class="row">
+      <%include menudoc.ejs%>
+    <div class="col-sm-9 col-md-9 infor">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">Thông tin cert.</h3>
+        </div>
+        <div class="panel-body" style="margin: 15px 0px;">
+          <div class="">
+
+            <h5 style="margin-top: 0px"> Chi tiết</h5>
+            <table class="table ">
+              <tbody>
+              <%for (var property in cert) {%>
+              <tr class="">
+                <td><%= property%></td>
+                <td class="">
+                  <%if(property=='validate'){%>
+                  <select class="custom-select form-control ">
+                    <option value="true" class="true">true</option>
+                    <option value="flase" class="flase" selected>flase</option>
+                  </select>
+                    <%}else {%>
+                    <p class="<%= property %> "><%= cert[property] %></p>
+                  <%}%>
+                </td>
+              </tr>
+              <%}%>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+    <% include ../footer.ejs%>
+</footer>
+
+<script>
+    $('.list-group a').removeClass( "active" )
+    $('.panel-collapse').removeClass( "in " )
+    $('.tt').addClass( "in" );
+    $('.thongtin').addClass("in");
+    if("<%=cert.validate%>"=="true"){
+        $( ".custom-select .flase" ).removeAttr( "selected" )
+        $( ".custom-select .true" ).attr( "selected" )
+    }
+    $(document).ready(function () {
+        $( ".custom-select" ).change(function () {
+            $.ajax({
+                url: '/user/donhang/update',
+                type: 'POST',
+                dataType: 'json',
+                data: {
+                    Identity: "<%=cert.Identity%>",
+                    validate:$(".custom-select").val()
+                }
+            }).done(function(ketqua) {
+               if(true){
+                   window.location.replace("/user/donhang");
+               }
+            });
+        })
+    })
+</script>
+
+</body>
+</html>

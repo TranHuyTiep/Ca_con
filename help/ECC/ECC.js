@@ -359,10 +359,10 @@ function make_public_key(private_key){
 
 
 
-// var a = '754310038029066392028554932275352308423639400149113357851795145296806618999321'
+// var a = '89277588786314836624193327236638915972473294738894029174395785024848399290490'
 
 /*Test*/
-// console.log(scalar_mult(priva,x_to_Point(a)))
+// console.log(scalar_mult(a,[curve.X,curve.Y]))
 
 // var x = make_keypair()
 // pub = x.public_key
@@ -380,7 +380,7 @@ function make_public_key(private_key){
 // var private_key1 = client1.private_key,public_key1 = client1.public_key
 // var private_key2 = client2.private_key,public_key2 = client2.public_key
 //
-// cert1 = (create_cert('Hello client',public_key1,private_key_CA,public_key_CA))
+// cert1 = (create_cert('Hello client',a,'',''))
 // cert2 = (create_cert('Hello client1',public_key2,private_key_CA,public_key_CA))
 // x1=create_key_to_cert(private_key1,cert1)
 // x2=create_key_to_cert(private_key2,cert2)

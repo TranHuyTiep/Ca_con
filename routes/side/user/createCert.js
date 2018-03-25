@@ -11,7 +11,7 @@ var config = require('../../../config/config')
 
 /*Edit Don Hang*/
 router.route('/cert/dangky')
-    .get(function(req, res, next) {
+    .get(help.isLoggedIn,function(req, res, next) {
         let user = req.user
         res.render('side/user/dangky_cert',{user:user});
     })
@@ -24,17 +24,17 @@ router.route('/cert/dangky')
         var private_key  = CryptoJS.AES.decrypt(fs.readFileSync(config.root_dir+config.jwt.private_key).toString(),config.jwt.password);
         var priva = private_key.toString(CryptoJS.enc.Utf8);
         var public_key  = CryptoJS.AES.decrypt(fs.readFileSync(config.root_dir+config.jwt.public_key).toString(),config.jwt.password);
-        var public = private_key.toString(CryptoJS.enc.Utf8);
+        var public = public_key.toString(CryptoJS.enc.Utf8);
         let cert = ecc.create_cert(data.Identity,data.R,priva,public)
-        data.cert = JSON.stringify(cert)
         data.timeCreate = timeCreate
         delete data.email;
         delete data.passphrase;
         cert.time = data.timeValid;
-
+        data.validate = 'true'
         let ciphertext = CryptoJS.AES.encrypt(JSON.stringify(cert), passPhrase);
+        data.cert = ciphertext
 
-        db_model.insert('list_ca',data).then(function (result) {
+        db_model.insert('listCert',data).then(function (result) {
             try {
                 fs.writeFile(data.Identity+'.text',ciphertext,function (error,result) {
                     if(error==null){
@@ -51,7 +51,6 @@ router.route('/cert/dangky')
                     }else {
                         console.log(error)
                     }
-
                 })
             }catch(err) {
                 console.log(error)

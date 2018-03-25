@@ -340,6 +340,9 @@ function x_to_Point(x){
  */
 
 function create_key_to_cert(private_key,cert) {
+    console.log(cert)
+    console.log(private_key)
+
     var P = bigInt(cert.P), id = cert.id,s = bigInt(cert.s)
     P = x_to_Point(P)
     var public_key_CA = x_to_Point(bigInt(cert.C))
@@ -350,6 +353,7 @@ function create_key_to_cert(private_key,cert) {
     var hash_P_i = bigInt(mes_hash,base=16)
     var b = (hash_P_i.multiply(private_key).add(s)).mod(curve.n)
     var B = add_point(public_key_CA, scalar_mult(hash_P_i, P))
+    console.log(B)
     var check = scalar_mult(b,[curve.X,curve.Y])
     if (B[1].mod(2).eq(0)){
         return [b, B[0].multiply(10), check[0].eq(B[0])];
