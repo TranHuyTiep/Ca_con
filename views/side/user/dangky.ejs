@@ -29,7 +29,14 @@
   <div class="row Creation">
     <h2 style="margin: 15px">Account Creation</h2>
     <h6 style="margin: 15px">
-      <i><i style="color: red">*</i> Items in <strong>bold</strong> are required fields.</i>
+        <%if(error){%>
+            <i><i style="color: red">*</i> <%= error%></i><br>
+        <%}%>
+        <%if(message.length!=0){%>
+          <i style="font-size: 15px"><i style="color: red">*</i><%= message[0]%></i>
+          <br>
+        <%}%>
+      <i><i style="color: red">*</i> Items in <strong>bold</strong> are required fields.</i><br>
     </h6>
     <form action="" method="post" id="form-post" >
       <div class=" row form-row" style="margin: 0px" >

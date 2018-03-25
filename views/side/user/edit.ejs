@@ -10,70 +10,11 @@
   <script src="/javascripts/side/dangky.js"></script>
 </head>
 <body >
-<% include ../menu.ejs%>
+<% include menu.ejs%>
 
 <div class="container content">
   <div class="row">
-    <div class="col-sm-3 col-md-3">
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                <span class="glyphicon glyphicon-folder-close"> </span>
-                Tài Khoản
-              </a>
-            </h4>
-          </div>
-          <div id="collapseOne" class="panel-collapse collapse in">
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                Thông tin
-              </a>
-              <a href="#" class="list-group-item">Đơn hàng</a>
-              <a href="#" class="list-group-item">Đổi mật khẩu</a>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                <span class="glyphicon glyphicon-file"></span>
-                Danh sách
-              </a>
-            </h4>
-          </div>
-          <div id="collapseFour" class="panel-collapse collapse">
-            <div class="list-group">
-              <a href="#" class="list-group-item active">
-                Tạo chứng chỉ số
-              </a>
-              <a href="#" class="list-group-item">CA</a>
-              <a href="#" class="list-group-item">Chữ ký số</a>
-              <a href="#" class="list-group-item">Verify chữ ký</a>
-              <a href="#" class="list-group-item">Private Key</a>
-            </div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title">
-              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive"><span class="glyphicon glyphicon-heart">
-                             </span>Phản hồi</a>
-            </h4>
-          </div>
-          <div id="collapseFive" class="panel-collapse collapse">
-            <div class="list-group">
-              <a href="#" class="list-group-item">
-                <h4 class="list-group-item-heading">Chân thành cảm ơn đóng góp của quý khách</h4>
-                <p class="list-group-item-text">Mọi đóng góp của quý khách giúp chúng tôi hoàn thiện hệ thống tốt hơn.</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      <%include menudoc.ejs%>
     <div class="col-sm-9 col-md-9 infor">
       <div class="panel panel-default">
         <div class="panel-heading">
@@ -85,11 +26,11 @@
             <div class=" row form-row" style="margin: 0px">
               <div class="form-group col-lg-6">
                 <label for="inputFirstName">First Name</label>
-                <input type="text" name="firstName" class="form-control" id="inputFirstName" placeholder="First Name" value="<%= data.firstName%>">
+                <input type="text" name="firstName" class="form-control" id="inputFirstName" placeholder="First Name" value="<%= user.firstName%>">
               </div>
               <div class="form-group col-md-6">
                 <label for="inputLastName">Last Name</label>
-                <input type="text" name="lastName" class="form-control" id="inputLastName" placeholder="Last Name" value="<%= data.lastName%>">
+                <input type="text" name="lastName" class="form-control" id="inputLastName" placeholder="Last Name" value="<%= user.lastName%>">
               </div>
             </div>
 
@@ -103,7 +44,7 @@
             </div>
 
             <div id="countries_states2" class=" form-group col-md-6 bfh-selectbox bfh-countries" data-name="country" data-country="VN" data-flags="true">
-              <input type="hidden" name="country" value="<%= data.country%>" >
+              <input type="hidden" name="country" value="<%= user.country%>" >
               <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
               <div class="bfh-selectbox-options" style="margin: 15px">
                 <div role="listbox">
@@ -112,7 +53,7 @@
               </div>
             </div>
             <div class=" form-group col-md-6 bfh-selectbox bfh-states" data-name="states" data-country="countries_states2">
-              <input type="hidden" name="states" value="<%= data.states%>" >
+              <input type="hidden" name="states" value="<%= user.states%>" >
               <a class="bfh-selectbox-toggle" role="button" data-toggle="bfh-selectbox" href="#"> <span class="bfh-selectbox-option input-medium" data-option=""></span> <b class="caret"></b> </a>
               <div class="bfh-selectbox-options" >
                 <div role="listbox">
@@ -123,11 +64,11 @@
 
             <div class="form-group col-lg-6">
               <label for="inputCompany" style="font-weight: 500">Company</label>
-              <input type="text" name="company" class="form-control" id="inputCompany" placeholder="Company" value="<%= data.company%>">
+              <input type="text" name="company" class="form-control" id="inputCompany" placeholder="Company" value="<%= user.company%>">
             </div>
             <div class="form-group col-md-6">
               <label for="inputWeb" style="font-weight: 500">Web Address</label>
-              <input type="text" name="webAddress" class="form-control" id="inputWeb" placeholder="Web Address" value="<%= data.webAddress%>">
+              <input type="text" name="webAddress" class="form-control" id="inputWeb" placeholder="Web Address" value="<%= user.webAddress%>">
             </div>
 
             <div class="form-group col-md-8">
@@ -143,6 +84,11 @@
 <footer>
     <% include ../footer.ejs%>
 </footer>
-
+<script>
+    $('.list-group a').removeClass( "active" )
+    $('.panel-collapse').removeClass( "in " )
+    $('.donhang').addClass( "in" );
+    $('.thongtin').addClass("in");
+</script>
 </body>
 </html>

@@ -9,6 +9,12 @@ $(document).ready(function() {
         return this.optional( element ) || /^\+84[- .]?\(?(?:(1|8|9)\d\d)\)?[- .]?\d\d\d[- .]?\d\d\d?\d$/.test( value );
     }, 'Please enter a valid phone number.');
 
+    jQuery.validator.addMethod("NequalTo", function(value, element,param) {
+        // allow any non-whitespace characters as the host part
+        return this.optional( element ) ||  value != param;
+    }, 'Please enter a valid phone number.');
+
+
     $('#form-post').validate({
         rules : {
             email : {
@@ -20,9 +26,15 @@ $(document).ready(function() {
                 minlength : 8,
                 checkPass : true
             },
+            newPassword : {
+                required : true,
+                minlength : 8,
+                checkPass : true,
+                NequalTo: function(){return $('#inputPassword').val()}
+            },
             passwordVeri:{
                 required:true,
-                equalTo: "#inputPassword"
+                equalTo: "#newPassword"
             },
             phone :{
                 required    : true,
@@ -44,10 +56,14 @@ $(document).ready(function() {
                 required : "Email không được để trống",
                 email : "Email không đúng định dạng",
             },
-            password : {
+            newPassword : {
+                NequalTo:"Mật khẩu mới không được chùng với mật khẩu cũ.",
                 required : "Mật khẩu không được để trống",
                 minlength : "Mật khẩu phải có ít nhất 8 ký tự",
                 strongPass : 'Mật khẩu tối thiểu 8 ký tự,1 chữ cái hoa,1 chữ cái thường,1 chữ số'
+            },
+            password:{
+                required : "Mật khẩu không được để trống"
             },
             passwordVeri : {
                 required : "Mật khẩu không được để trống",

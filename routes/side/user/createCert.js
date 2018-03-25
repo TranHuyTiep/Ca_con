@@ -12,11 +12,8 @@ var config = require('../../../config/config')
 /*Edit Don Hang*/
 router.route('/cert/dangky')
     .get(function(req, res, next) {
-        let Id_user = req.user
-        db_User.searchUserID(Id_user).then(function (result) {
-            res.render('side/user/dangky_cert',{Id_user:result[0].Id_user,email:result[0].email});
-        })
-        // res.render('side/user/dangky_cert')
+        let user = req.user
+        res.render('side/user/dangky_cert',{user:user});
     })
     .post(function (req,res,next) {
         let data = req.body
@@ -68,7 +65,8 @@ router.route('/cert/dangky')
 
 router.route('/privateKey')
     .get(help.isLoggedIn,function(req, res, next) {
-        res.render('side/user/private_key')
+        let user = req.user
+        res.render('side/user/private_key',{user:user})
     })
     .post(function (req,res,next) {
 

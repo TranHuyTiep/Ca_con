@@ -21,7 +21,11 @@ module.exports = function(passport) {
     // used to deserialize the user
     passport.deserializeUser(function(id, done) {
         db_user.searchUserID(id).then(function (result) {
-            done(null, result[0].Id_user);
+            delete result[0].password
+            delete result[0].active
+            delete result[0].id
+            delete result[0].content
+            done(null, result[0]);
 
         }).catch(function (error) {
             done(error, null);
@@ -55,18 +59,19 @@ module.exports = function(passport) {
                     if(result.length==0){
                         db_model.insert('users',data).then(function (result) {
                             let newUser = new Object()
+                            newUser.Id_user  = Id_user
                             newUser.email = data.email
                             newUser.active = false
                             let link = help.fullUrl(req,'user/dangky/active/'+active)
                             sendMail.sendKichHoatDk(data.email,link,function (error,result) {
                                 console.log(error)
                             })
-                            return done(null, newUser,req.flash('signupMessage', 'Email kích hoạt đã được gửi.'));
+                            return done(null, newUser,req.flash('active', 'Email kích hoạt tài khoản đã được gửi.'));
                         }).catch(function (error) {
                             return done(error);
                         })
                     }else {
-                        return done(null, false, req.flash('signupMessage', 'That email is already taken.'));
+                        return done(null, false, req.flash('exist', 'User đã tồn tại.'));
                     }
 
                 }).catch(function (error) {
@@ -94,16 +99,16 @@ module.exports = function(passport) {
             db_user.searchUser(data.email).then(function (result) {
                 if(result.length!=0){
                     if(result[0].active !=1 ){
-                        return done(null, false, req.flash('signupMessage', 'User not active'));
+                        return done(null, false, req.flash('active', 'User not active'));
                     }else {
                         if (!( help.validPassword(password,result[0].password))){
-                            return done(null, false, req.flash('loginMessage', 'Oops! Wrong password.'));
+                            return done(null, false, req.flash('active', 'Oops! Wrong password.'));
                         }else {
                             return done(null, result[0]);
                         }
                     }
                 }else {
-                    return done(null, false, req.flash('signupMessage', 'No user found.'));
+                    return done(null, false, req.flash('active', 'No user found.'));
                 }
             }).catch(function (error) {
                 return done(error);

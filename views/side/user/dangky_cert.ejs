@@ -15,7 +15,7 @@
   <script src="/javascripts/aes.js"></script>
 </head>
 <body >
-<% include ../menu.ejs%>
+<% include menu.ejs%>
 
 <div class="container content">
   <div class="row">
@@ -123,8 +123,8 @@
                     R: R,
                     Identity:inputIdentity,
                     timeValid:timeValid,
-                    email : '<%= email%>',
-                    Id_user: '<%= Id_user%>',
+                    email : '<%= user.email%>',
+                    Id_user: '<%= user.Id_user%>',
                     passphrase:inputPassphrase,
                 },
                 success:function (result) {

@@ -28,7 +28,12 @@
   <div class="row Creation">
     <h2 style="margin: 15px">Account Creation</h2>
     <h6 style="margin: 15px">
+
+      <%if(message.length!=0){%>
+      <i><i style="color: red">*</i><%= message[0]%></i>
+      <%}else {%>
       <i><i style="color: red">*</i> Items in <strong>bold</strong> are required fields.</i>
+        <%}%>
     </h6>
     <form action="" method="post" id="form-post"  >
       <div class=" row form-row" style="margin: 0px" >

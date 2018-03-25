@@ -6,7 +6,7 @@
     <% include header.ejs%>
 </head>
 <body >
-<% include ../menu.ejs%>
+<% include menu.ejs%>
 
 <div class="container content">
   <div class="row">
@@ -23,42 +23,21 @@
               <th>Id chứng chỉ</th>
               <th>Ngày Tạo</th>
               <th>Tình trạng</th>
-
             </tr>
             </thead>
             <tbody>
+            <% var date = new Date()%>
+            <%for(var i =0;i<ca.length;i++){%>
             <tr>
-              <td>123456789</td>
-              <td>14/12/2015</td>
-              <td>Thu hồi</td>
+              <td><%=ca[i].Identity%></td>
+              <%date.setTime(ca[i].timeCreate)%>
+              <td><%=date.toLocaleString()%></td>
+              <td><%=ca[i].validate%></td>
               <td>
-                <a href="#">Xem chi tiết</a>
+                <a href="/user/donhang/<%=ca[i].Identity%>">Xem chi tiết</a>
               </td>
             </tr>
-            <tr>
-              <td>123456789</td>
-              <td>14/12/2015</td>
-              <td>Thu hồi</td>
-              <td>
-                <a href="#">Xem chi tiết</a>
-              </td>
-            </tr>
-            <tr>
-              <td>123456789</td>
-              <td>14/12/2015</td>
-              <td>Thu hồi</td>
-              <td>
-                <a href="#">Xem chi tiết</a>
-              </td>
-            </tr>
-            <tr>
-              <td>123456789</td>
-              <td>14/12/2015</td>
-              <td>Thu hồi</td>
-              <td>
-                <a href="#">Xem chi tiết</a>
-              </td>
-            </tr>
+            <%}%>
             </tbody>
           </table>
         </div>

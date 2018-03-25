@@ -6,7 +6,7 @@
     <% include header.ejs%>
 </head>
 <body >
-<% include ../menu.ejs%>
+<% include menu.ejs%>
 
 <div class="container content">
   <div class="row">
@@ -22,11 +22,11 @@
             <h5 style="margin-top: 0px"> Chi tiết</h5>
             <table class="table">
               <tbody>
-              <%for (var property in data) {%>
+              <%for (var property in user) {%>
               <tr>
                 <td><%= property%></td>
                 <td>
-                    <%= data[property] %>
+                    <%= user[property] %>
                 </td>
               </tr>
               <%}%>
