@@ -44,6 +44,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', array_rounter.index);
 app.use('/user', array_rounter.user);
 app.use('/content',array_rounter.content)
+app.use('/admin', array_rounter.admin);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

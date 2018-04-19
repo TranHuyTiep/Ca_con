@@ -106,7 +106,7 @@ function updateUser(user_id,data) {
                 if (error){
                     reject(error)
                 }else {
-                    resolve(error,result)
+                    resolve(result)
                     connection.release();
                 }
             })
@@ -124,9 +124,80 @@ db_user.prototype.updateUser = async function (user_id,data) {
 }
 
 
+
+/**
+ * update thong tin user
+ * @param table
+ * @param user_id
+ * @param data
+ * @returns {Promise}
+ */
+function getUser() {
+    return new Promise(function (resolve, reject) {
+        pool.getConnection(function(err, connection) {
+            var query = "SELECT " +
+                "Id_user,email,phone,firstName,lastName,company,country,states,content,webAddress,active " +
+                "FROM users " +
+                "ORDER BY active,timeCreate DESC ";
+            connection.query(query,function (error,result) {
+                if (error){
+                    reject(error)
+                }else {
+                    resolve(result)
+                    connection.release();
+                }
+            })
+        })
+    })
+}
+
+db_user.prototype.getUser = async function () {
+    try{
+        let result = await getUser();
+        return result
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+
+
+/**
+ * update thong tin user
+ * @param table
+ * @param user_id
+ * @param data
+ * @returns {Promise}
+ */
+function deleteUserById(IdUser) {
+    return new Promise(function (resolve, reject) {
+        pool.getConnection(function(err, connection) {
+            var query = "DELETE FROM users WHERE Id_user=?"
+            connection.query(query,IdUser,function (error,result) {
+                if (error){
+                    reject(error)
+                }else {
+                    resolve(result)
+                    connection.release();
+                }
+            })
+        })
+    })
+}
+
+db_user.prototype.deleteUserById = async function (IdUser) {
+    try{
+        let result = await deleteUserById(IdUser);
+        return result
+    }catch(error) {
+        console.log(error)
+    }
+}
+
+
 var model = new db_user()
 
-// model.searchUserID('d17325feb227cfa7').then(function (e) {
+// model.searchUser('tranhuytiep95@gmail.com').then(function (e) {
 //     console.log(e)
 // })
 module.exports = model

@@ -330,7 +330,7 @@ function create_key_to_cert(private_key,cert) {
  * @returns {*}
  */
 function create_key_to_third_party(cert){
-    var  P = bignum(cert.P), id = cert.id,s = bignum(cert.s),public_key_CA = cert.C
+    var  P = bignum(cert.P), id = cert.id,public_key_CA = cert.C
     var public_key_CA = x_to_Point(public_key_CA)
     P = x_to_Point(P)
     var a = P[0].toString()
@@ -363,12 +363,12 @@ function make_public_key(private_key){
 
 /*Test*/
 // console.log(scalar_mult(a,[curve.X,curve.Y]))
-
+//
 // var x = make_keypair()
 // pub = x.public_key
 // pri = x.private_key
-// var y = make_keypair()
-// var pub_y = y.public_key
+// // var y = make_keypair()
+// // var pub_y = y.public_key
 // var sign = sign_message(pri,'tranhuytiep')
 // console.log(sign)
 // console.log(verify_sign(pub,'tranhuytiep',sign))

@@ -1,0 +1,166 @@
+<%include ../header.ejs%>
+
+
+<%include ../left_menu.ejs%>
+
+<!-- Right side -->
+<div id="rightSide">
+
+  <!-- Account panel top -->
+
+  <div class="topNav">
+    <div class="wrapper">
+      <div class="welcome">
+        <span>Xin chào: <b>admin!</b></span>
+      </div>
+
+      <div class="userNav">
+        <ul>
+          <li><a href="" target="_blank">
+              <img style="margin-top:7px;" src="http://localhost:3000/images/admin/icons/light/home.png" />
+              <span>Trang chủ</span>
+            </a></li>
+
+          <!-- Logout -->
+          <li><a href="admin/home/logout.html">
+              <img src="http://localhost:3000/images/admin/icons/topnav/logout.png" alt="" />
+              <span>Đăng xuất</span>
+            </a></li>
+
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+
+  <!-- Title area -->
+  <div class="titleArea">
+    <div class="wrapper">
+      <div class="pageTitle">
+        <h5>Sản phẩm</h5>
+        <span>Quản lý sản phẩm</span>
+      </div>
+
+      <div class="horControlB menu_action">
+        <ul>
+          <li><a href="/admin/user">
+              <img src="http://localhost:3000/images/admin/icons/control/16/list.png" />
+              <span>Danh sách</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+  <div class="line"></div>
+
+  <!-- Main content wrapper -->
+  <div class="wrapper">
+
+    <!-- Form -->
+    <form class="form" id="form" >
+      <fieldset>
+        <div class="widget">
+          <div class="title">
+            <img src="http://localhost:3000/images/admin/icons/dark/add.png" class="titleIcon" />
+            <h6>Thêm mới User</h6>
+          </div>
+
+          <ul class="tabs">
+            <li><a href="#tab1">Thông tin chung</a></li>
+
+          </ul>
+
+          <div class="tab_container">
+            <div id='tab1' class="tab_content pd0">
+              <div class="formRow">
+                <label class="formLeft" for="param_firstName">First Name:<span class="req">*</span></label>
+                <div class="formRight">
+                  <span class="oneTwo"><input name="firstName" class="firstName" id="param_firstName" _autocheck="true" type="text" /></span>
+                  <span name="name_autocheck" class="autocheck"></span>
+                  <div name="name_error" class="clear error"></div>
+                </div>
+                <div class="clear"></div>
+              </div>
+
+              <div class="formRow">
+                <label class="formLeft" for="param_lastName">Last Name:<span class="req">*</span></label>
+                <div class="formRight">
+                  <span class="oneTwo"><input name="lastName" class="lastName" id="param_lastName" _autocheck="true" type="text" /></span>
+                  <span name="name_autocheck" class="autocheck"></span>
+                  <div name="name_error" class="clear error"></div>
+                </div>
+                <div class="clear"></div>
+              </div>
+
+
+              <div class="formRow">
+                <label class="formLeft" for="param_email">Email:<span class="req">*</span></label>
+                <div class="formRight">
+                  <span class="oneTwo"><input name="email" class="email" id="param_email" _autocheck="true" type="text" /></span>
+                  <span name="name_autocheck" class="autocheck"></span>
+                  <div name="name_error" class="clear error"></div>
+                </div>
+                <div class="clear"></div>
+              </div>
+
+              <div class="formRow">
+                <label class="formLeft" for="param_phone">Phone:<span class="req">*</span></label>
+                <div class="formRight">
+                  <span class="oneTwo"><input name="phone" class="phone" id="param_phone" _autocheck="true" type="text" /></span>
+                  <span name="name_autocheck" class="autocheck"></span>
+                  <div name="name_error" class="clear error"></div>
+                </div>
+                <div class="clear"></div>
+              </div>
+          </div><!-- End tab_container-->
+
+          <div class="formSubmit">
+            <input type="button" value="Thêm mới" class="redB createUser" />
+            <input type="reset" value="Hủy bỏ" class="basic" />
+          </div>
+          <div class="clear"></div>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <script>
+      $('.account .exp').attr( "id",'current' );
+      $('.account .exp').removeClass('inactive')
+      $('.account .exp').addClass('active')
+      $('.addUser').css("color"," #efefef");
+      $( document ).ready(function() {
+          $( ".createUser" ).click(function () {
+              $.ajax({
+                  url: '/admin/user/create',
+                  type: 'POST',
+                  dataType: 'json',
+                  data: {
+                      firstName: $('.firstName').val(),
+                      lastName: $(".lastName").val(),
+                      email: $('.email').val(),
+                      phone: $('.phone').val(),
+                  }
+              }).done(function(result) {
+                  if(result.active){
+                     alert(result.active)
+                      window.location.replace("/admin/user");
+                  }else if(result.error){
+                     alert(result.error)
+                  }else {
+                      alert('Lỗi hệ thống.')
+                  }
+
+              });
+          })
+
+      });
+  </script>
+<%include ../footer.ejs%>

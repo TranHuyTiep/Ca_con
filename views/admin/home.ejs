@@ -1,0 +1,148 @@
+<%include header.ejs%>
+
+
+<%include left_menu.ejs%>
+
+<!-- Right side -->
+<div id="rightSide">
+
+  <!-- Account panel top -->
+
+  <div class="topNav">
+    <div class="wrapper">
+      <div class="welcome">
+        <span>Xin chào: <b>admin!</b></span>
+      </div>
+
+      <div class="userNav">
+        <ul>
+          <li><a href="" target="_blank">
+              <img style="margin-top:7px;" src="http://localhost:3000/images/admin/icons/light/home.png" />
+              <span>Trang chủ</span>
+            </a></li>
+
+          <!-- Logout -->
+          <li><a href="admin/home/logout.html">
+              <img src="http://localhost:3000/images/admin/icons/topnav/logout.png" alt="" />
+              <span>Đăng xuất</span>
+            </a></li>
+
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+
+  <!-- Title area -->
+  <div class="titleArea">
+    <div class="wrapper">
+      <div class="pageTitle">
+        <h5>Bảng điều khiển</h5>
+        <span>Trang quản lý danh sách chứng chỉ</span>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="line"></div>
+
+
+  <!-- Message -->
+
+
+  <!-- Main content wrapper -->
+  <div class="wrapper">
+
+    <div class="widgets">
+      <!-- Stats -->
+      <!-- Giao dich thanh cong gan day nhat -->
+
+      <div class="widget">
+        <div class="title">
+          <span class="titleIcon"><input type="checkbox" id="titleCheck" name="titleCheck" /></span>
+          <h6>Danh sách chứng chỉ só</h6>
+        </div>
+
+        <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable" id="checkAll">
+
+
+          <thead>
+          <tr>
+            <td style="width:10px;"><img src="http://localhost:3000/images/admin/icons/tableArrows.png" /></td>
+            <td style="width:60px;">Mã số</td>
+            <td style="width:75px;">Định danh</td>
+            <td style="width:90px;">User</td>
+            <td style="width:100px;">Thời gian hết hạn</td>
+            <td style="width:75px;">Ngày tạo</td>
+            <td style="width:75px;">Còn yệu lực</td>
+            <td style="width:55px;">Hành động</td>
+          </tr>
+          </thead>
+
+          <tfoot class="auto_check_pages">
+          <tr>
+            <td colspan="9">
+              <div class="list_action itemActions">
+                <a href="#submit" id="submit" class="button blueB" url="admin/tran/del_all.html">
+                  <span style='color:white;'>Xóa hết</span>
+                </a>
+              </div>
+            </td>
+          </tr>
+          </tfoot>
+
+          <tbody class="list_item">
+          <% var date  = new Date()%>
+          <%for(let i = 0;i<cert.length;i++){%>
+          <tr>
+            <td><input type="checkbox" name="id[]" value="<%= cert[i].id%>" /></td>
+
+            <td class="textC"><%= cert[i].id%></td>
+
+            <td>
+                <%= cert[i].Identity%>
+            </td>
+
+            <td class="textC">  <%= cert[i].Id_user%></td>
+
+            <td class="status textC">
+                <span class="">
+                 <%= cert[i].timeValid%>
+                </span>
+            </td>
+
+            <td class="textC">
+                <%date.setTime(cert[i].timeCreate)%>
+                <%= date.toLocaleString()%>
+            </td>
+            <td class="textC">  <%= cert[i].validate%></td>
+
+            <td class="textC">
+              <a href="/admin/cert/<%=cert[i].Identity%>" class="">
+                <img src="http://localhost:3000/images/admin/icons/color/view.png" />
+              </a>
+            </td>
+          </tr>
+          <%}%>
+          </tbody>
+
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+      $('.cert .exp').attr( "id",'current' );
+      $('.cert .exp').removeClass('inactive');
+      $('.cert .exp').addClass('active');
+      $('.listCert').css("color"," #efefef");
+      $( document ).ready(function() {
+
+      });
+  </script>
+<%include footer.ejs%>

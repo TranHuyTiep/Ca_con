@@ -1,0 +1,157 @@
+<%include ../header.ejs%>
+
+
+<%include ../left_menu.ejs%>
+
+<!-- Right side -->
+<div id="rightSide">
+
+  <!-- Account panel top -->
+
+  <div class="topNav">
+    <div class="wrapper">
+      <div class="welcome">
+        <span>Xin chào: <b>admin!</b></span>
+      </div>
+
+      <div class="userNav">
+        <ul>
+          <li><a href="" target="_blank">
+              <img style="margin-top:7px;" src="http://localhost:3000/images/admin/icons/light/home.png" />
+              <span>Trang chủ</span>
+            </a></li>
+
+          <!-- Logout -->
+          <li><a href="admin/home/logout.html">
+              <img src="http://localhost:3000/images/admin/icons/topnav/logout.png" alt="" />
+              <span>Đăng xuất</span>
+            </a></li>
+
+        </ul>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <!-- Main content -->
+
+  <!-- Title area -->
+  <div class="titleArea">
+    <div class="wrapper">
+      <div class="pageTitle">
+        <h5>Bảng điều khiển</h5>
+        <span>Trang quản lý danh sách User</span>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </div>
+
+  <div class="line"></div>
+
+
+  <!-- Message -->
+
+
+  <!-- Main content wrapper -->
+  <div class="wrapper">
+
+    <div class="widgets">
+      <!-- Stats -->
+      <!-- Giao dich thanh cong gan day nhat -->
+
+      <div class="widget">
+        <div class="title">
+          <span class="titleIcon"><input type="checkbox" id="titleCheck" name="titleCheck" /></span>
+          <h6>Danh sách chứng chỉ só</h6>
+        </div>
+
+        <table cellpadding="0" cellspacing="0" width="100%" class="sTable mTable myTable" id="checkAll">
+
+
+          <thead>
+          <tr>
+            <td style="width:10px;"><img src="http://localhost:3000/images/admin/icons/tableArrows.png" /></td>
+            <td style="width:60px;">Id_user</td>
+            <td style="width:75px;">Tên</td>
+            <td style="width:90px;">Email</td>
+            <td style="width:100px;">Số điện thoại</td>
+            <td style="width:75px;">Company</td>
+            <td style="width:75px;">Country</td>
+            <td style="width:55px;">Website</td>
+            <td style="width:55px;">Active</td>
+
+            <td style="width:55px;">Hành động</td>
+          </tr>
+          </thead>
+
+          <tfoot class="auto_check_pages">
+          <tr>
+            <td colspan="10">
+              <div class="list_action itemActions">
+                <a href="#submit" id="submit" class="button blueB" url="admin/tran/del_all.html">
+                  <span style='color:white;'>Xóa hết</span>
+                </a>
+              </div>
+            </td>
+          </tr>
+          </tfoot>
+
+          <tbody class="list_item">
+          <%for(let i = 0;i <listUser.length;i++){%>
+          <tr>
+            <td><input type="checkbox" name="id[]" value="<%= listUser[i].Id_user%>" /></td>
+            <td class="textC"><%= listUser[i].Id_user%></td>
+            <td class="textC"><%=  listUser[i].firstName + listUser[i].lastName  %></td>
+
+            <td>
+                <%= listUser[i].email%>
+            </td>
+
+            <td class="textC">  <%= listUser[i].phone%></td>
+
+            <td class="status textC">
+                <span class="">
+                 <%= listUser[i].company%>
+                </span>
+            </td>
+
+            <td class="textC">
+                <%= listUser[i].country%>
+            </td>
+            <td class="textC">  <%= listUser[i].webAddress%></td>
+            <td class="textC">
+              <%if(listUser[i].active == 1){%>
+                Active
+              <%}else {%>
+                Not Active
+              <%}%>
+            </td>
+
+            <td class="textC">
+              <a href="/admin/user/<%=listUser[i].Id_user%>" class="">
+                <img src="http://localhost:3000/images/admin/icons/color/view.png" />
+              </a>
+            </td>
+          </tr>
+          <%}%>
+          </tbody>
+
+        </table>
+      </div>
+
+    </div>
+
+  </div>
+  <script>
+      $('.account .exp').attr( "id",'current' );
+      $('.account .exp').removeClass('inactive')
+      $('.account .exp').addClass('active')
+      $('.listUser').css("color"," #efefef");
+      $( document ).ready(function() {
+
+
+      });
+  </script>
+<%include ../footer.ejs%>

@@ -95,3 +95,7 @@ body {
 .banner a:hover{
     color:#4CAF50;
 }
+
+.sub-menu-hidden{
+    display: none;
+}

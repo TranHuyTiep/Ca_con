@@ -2,12 +2,1239 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed1c23cb-e9a4-49e1-b4e9-f451c83f8847" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Ca_con.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/addFiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/arrow.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/bg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/bodyBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/breadcrumbArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/calActiveBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/controlB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/darkGreyCircle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/genBalance.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/horControlB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/iconsGroup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/leftTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/middleNavBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/navBg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/navItemBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/numberBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/pagingBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/respNavBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/roundStats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sideDropdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sideGradient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sidebarButtonSep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sidebarButtons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sidebarPositiveArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/sidebarSearch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/statsElementsBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/subNavBg.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/subNavBg_active.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/tPagination.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/titleBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/titleRowBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/backgrounds/topnavBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_hex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_hsb_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_hsb_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_hsb_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_indic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_rgb_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_rgb_g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_rgb_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_select.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/colorpicker_submit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/colorPicker/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/contentDivider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/divider.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/icons-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/icons-small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/ql.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/fileManager/toolbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/checkbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/select_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/select_left_datatable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/select_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/select_right_datatable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/spinnerBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/spinnerBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/forms/spinnerTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/closeSelection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dMessages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dMoney.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dUsers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dark/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dark/twitter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/dropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/grown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/iconHome.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/frames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/light/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/arrowB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/arrowG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/arrowR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/arrowlG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/plusB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/plusG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/plusR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/pluslG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/roundtipB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/roundtipG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/roundtipR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/roundtiplG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/tipB.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/tipG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/tipR.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/lists/tiplG.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/middlenav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/middlenav/files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/middlenav/messages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/middlenav/orders.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/middlenav/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/notifications/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/notifications/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/notifications/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/notifications/exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/notifications/information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/orderStatus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/sortDown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/sortUp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/taskDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/taskPending.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/taskProgress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/topnav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/topnav/subAdd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/topnav/subInbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/topnav/subOutbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/topnav/subTrash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/updateDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/updateNotice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/updateWarning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/uploader/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/uploader/deleteFile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/uploader/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/icons/uploader/uploaded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/datePickerArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/jquery_ui/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/leftArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/negArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/posArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/contentPattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_square/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_square/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/dark_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/default_thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/sprite_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/sprite_prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/sprite_x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/default/sprite_y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/contentPatternBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/contentPatternLeft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/contentPatternRight.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/contentPatternTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/default_thumbnail.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/facebook/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_rounded/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_rounded/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_rounded/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_rounded/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_square/btnNext.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_square/btnPrevious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/prettyPhoto/light_square/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/rightArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sadEmo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/searchBtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/searchSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sidebarNeg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sidebarPos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sidebarSearchBtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sidebarSep.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/sidebarZero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/subArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/subArrowStats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/subIcon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/switcher/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/switcher/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/tipsy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/blueMediumBar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/greenMediumBar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/numDataBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/orangeMediumBar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/progressOverlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/progress_container.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/sliderBg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/sliderOverlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/sliderOverlayVert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/usualButtons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/ui/widgetButtons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/wysiwyg/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/wysiwyg/buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/wysiwyg/toolbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/zero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/alt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/body.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/breadcrumbs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/contentTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/side.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/side_0.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/sidebar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/subnav.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/backgrounds/top.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/dropFiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/checkboxes/ibutton-slider-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/checkboxes/no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/checkboxes/yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_hex.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_hsb_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_hsb_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_hsb_s.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_indic.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_rgb_b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_rgb_g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_rgb_r.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_select.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/colorpicker_submit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/colorPicker/select.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/control/hasddArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/control/headSubmit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/control/resultsarrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/control/rightArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/control/subnav_arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/application.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/css.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/db.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/directory.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/doc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/file.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/film.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/folder_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/java.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/linux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/ppt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/psd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/script.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/txt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/fileTree/zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/addFiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/checkboxes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/closeSelection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/radios.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/selectArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/spinnerBottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/forms/spinnerTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/lightbox/blank.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/lightbox/fancy_title_over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/lightbox/fancybox-x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/lightbox/fancybox-y.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/lightbox/fancybox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/contact_status.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/dropTopArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/dropped.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/fileError.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/fileSuccess.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/grown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/iButton.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/iTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/messageArrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/messageArrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/overlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/removeLi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/taskDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/taskPending.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/taskProgress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/updateDone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/updateNotice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/updateWarning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/other/userArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/dateArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/pageOverlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/progress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/progressOverlay.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/ui/triangles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/uploader/deleteFile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/uploader/drag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/uploader/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/uploader/uploaded.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/wysiwyg/buttons.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/elements/wysiwyg/toolbar.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/arrows-active.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/arrows-normal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/crop.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/dialogs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/icons-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/progress.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/quicklook-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/quicklook-icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/resize.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/spinner-mini.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/fileManager/toolbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/breadsArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/breadsHome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-abacus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-address-book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-admin2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-airplane.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-alarm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-archive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-arrowdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-arrowleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-arrowright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-arrowup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-baloons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bandaid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-basket2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-battery-full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-battery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bell2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-beta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bigbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-blackberry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-block.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-blocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bluetooth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bluetooth2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bluray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-books.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-books2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-bullseye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-buzz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-calc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-camera2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-camera3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cart3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cart4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cart5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cashreg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cassette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chart8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cloud-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cloud-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cog3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cog4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-companies.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-copypaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-coverflow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-create2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dcalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-delicious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-digg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-digg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-documents.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-download2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-download3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-downloadto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dribbble2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-drive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dropbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-drupal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-electroinput.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-electroplug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-expression.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-eyedropper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-fax.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-ff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-filmstrip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-filmstrip2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-flag2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-footprints.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-fountain-pen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-frames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-full2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-full3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-full4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-full5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-fullscreen2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-globe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-google-maps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-graph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-hd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-hd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-hd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-headphones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-home2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-ichat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-iclassic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-images2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-images3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-images4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-inano.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-inbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-inbox2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-joomla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-lastfm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-link2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-linux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-list2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-list3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-listimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-locked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-logoff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-macos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-magic-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-mcalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-medicase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-megaphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-mic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-mighty-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-moby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-money2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-money3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-music-symbol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-myspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-notebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-outbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pacman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pants.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-paperclip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-paypal3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-phone3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-phonehook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-photos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-piggybank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-planecase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-play2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-plixi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-postcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-power.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pricetag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-pricetag2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-purse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-recycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-refresh2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-refresh3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-refresh4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-robot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-ruler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-ruler2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-running.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-scissors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-sd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-sd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-sd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-settings2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-shirt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-shoppingbag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-shuffle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-sign-post.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-signal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-skype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-smallbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-socks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-speech-bubble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-speech-bubble2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-speech-bubbles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-speech-bubbles2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-stand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-stoptimer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-stumbleupon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-suitcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-switcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-tags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-transfer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-travelcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-trolly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-truck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-tumbler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-tv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-uc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-umbrella.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-unlocked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-user2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-users2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-vault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-vbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-vcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-walking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-wifi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-wifi2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-windows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-wired-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-wordpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-wordpress2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-zipfile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/light/icon-zipfiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/loginEmail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/loginLock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/loginUsername.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/sidebarButtons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/sidebarButtons/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/messages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/screen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usernav/sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-abacus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-address-book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-admin2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-airplane.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-alarm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-android.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-archive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-arrowdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-arrowleft.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-arrowright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-arrowup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-baloons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bandaid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-basket2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-battery-full.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-battery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bell2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-beta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bigbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-blackberry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-block.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-blocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bluetooth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bluetooth2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bluray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-books.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-books2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bright.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-bullseye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-buzz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-calc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-camera2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-camera3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cart3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cart4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cart5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cashreg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cassette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chart8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-chrome.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cloud-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cloud-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cloud.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cog2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cog3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cog4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-companies.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-copypaste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-coverflow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-create2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dates.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dcalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-delicious.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-digg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-digg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-document.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-documents.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-download2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-download3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-downloadto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dribbble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dribbble2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-drive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dropbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-drupal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-electroinput.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-electroplug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-exit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-expression.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-eyedropper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-facebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-fax.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-ff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-filmstrip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-filmstrip2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-flag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-flag2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-footprints.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-fountain-pen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-frames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-full2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-full3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-full4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-full5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-fullscreen2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-globe.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-google-maps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-graph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-hd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-hd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-hd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-headphones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-home2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-ichat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-iclassic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-imac.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-images2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-images3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-images4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-inano.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-inbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-inbox2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-ipad.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-iphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-joomla.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-lastfm.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-link2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-linux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-list2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-list3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-listimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-locked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-logoff.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-macos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-magic-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-mcalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-medicase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-megaphone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-mic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-mighty-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-mobile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-moby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-money2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-money3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-music-symbol.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-myspace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-notebook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-outbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pacman.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pants.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-paperclip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-paypal3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-phone3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-phonehook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-photos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-piggybank.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-planecase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-play2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-plixi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-postcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-power.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pricetag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-pricetag2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-purse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-recycle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-refresh2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-refresh3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-refresh4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-robot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-ruler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-ruler2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-running.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-safari.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-scissors.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-sd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-sd2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-sd3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-search.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-settings2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-shirt.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-shoppingbag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-shuffle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-sign-post.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-signal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-skype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-smallbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-socks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-speech-bubble.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-speech-bubble2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-speech-bubbles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-speech-bubbles2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-stand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-stoptimer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-stumbleupon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-suitcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-switcher.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-tags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-transfer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-trash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-travelcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-trolly.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-truck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-tumbler.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-tv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-uc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-umbrella.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-unlocked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-user2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-users2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-vault.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-vbar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-vcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-vimeo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-walking.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-wifi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-wifi2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-windows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-wired-mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-wordpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-wordpress2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-youtube.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-zipfile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/icons/usual/icon-zipfiles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-bg_glass_95_fef1ec_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/jquery_ui/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/leftArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/loginControl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/rightArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/searchSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/sprites/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/sprites/paymentIcons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/sprites/sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/subArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/switcher/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/switcher/bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/searchSmall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sortDown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sortUp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tables/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/tipsy.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images2/widgetDiv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/affiliate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/block.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/deposit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/edit_quick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/finish.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/flask.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/hand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/import.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/install.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/move.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/paper-clip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/set_default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/sitemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/star_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/toolbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/unblock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/uninstall.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/view.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/view_order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/color/withdraw.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/feature.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/hire-me.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/16/statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/order.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/statistics.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/control/32/user_item.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/bubbles2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/check.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/clipboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/download.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/dropper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/frames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/full2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/graph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/images2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/imagesList.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/inbox2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/like.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/link2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/loading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/money2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/monthCalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/pdfDoc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/photos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/preview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/record.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/refresh4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/tags.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/timer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/transfer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/twitter2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/upload.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/dark/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/downloadTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/editTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/blocks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/create.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/dialog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/frames.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/fullscreen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/imagesList.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/monthCalendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/stats.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/transfer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/light/users2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/middlenav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/middlenav/files.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/middlenav/messages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/middlenav/orders.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/middlenav/users.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/pEmail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/pSkype.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/printTop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/sPlus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/tableArrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/mainWebsite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/messages.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/profile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/settings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/topnav/tasks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/icons/update.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader10.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader11.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader12.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader4.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader5.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader7.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader8.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/loaders/loader9.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/userPic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/6.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/Thumbs.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/hide1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/hide2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/hot1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/hot2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/nb1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/nb2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/star1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/star2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/veri1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/veri2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/vip1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/option/vip2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/preloader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/img/unstar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/datatable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/elfinder.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/plugins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/prettyPhoto.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/css/ui_custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/images/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/charts/bar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/charts/chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/charts/hBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/charts/pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/charts/updating.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/calendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/excanvas.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/jquery.flot.orderBars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/charts/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/elfinder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/autogrowtextarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/chosen.jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.cleditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.dualListBox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.inputlimiter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.maskedinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.validationEngine-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/jquery.validationEngine.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/forms/uniform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/spinner/jquery.mousewheel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/spinner/ui.spinner.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/tables/datatable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/tables/resizable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/tables/tablesort.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.breadcrumbs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.collapsible.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.jgrowl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.prettyPhoto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.progress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.sourcerer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.timeentry.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/ui/jquery.tipsy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/uploader/jquery.plupload.queue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/uploader/plupload.html4.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/uploader/plupload.html5.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/uploader/plupload.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/wizard/jquery.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/wizard/jquery.form.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/crown/js/plugins/wizard/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/admin/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/core/reset.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/core/t-form.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/css.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/stylesheets/admin/css/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/admin/cert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/admin/home.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/admin/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/routes/api/verifyCert.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/cert/certDetail.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/footer.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/header.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/home.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/left_menu.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/user/addUser.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/user/listUser.ejs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/admin/user/userDetail.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/passport.js" afterPath="$PROJECT_DIR$/config/passport.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/side/user/login.js" afterPath="$PROJECT_DIR$/routes/side/user/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/help/ECC/ECC.js" afterPath="$PROJECT_DIR$/help/ECC/ECC.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/listCert.js" afterPath="$PROJECT_DIR$/model/listCert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/user.js" afterPath="$PROJECT_DIR$/model/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/side/home.css" afterPath="$PROJECT_DIR$/public/stylesheets/side/home.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/router.js" afterPath="$PROJECT_DIR$/router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/side/user/donhang.js" afterPath="$PROJECT_DIR$/routes/side/user/donhang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/side/content.ejs" afterPath="$PROJECT_DIR$/views/side/content.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/side/home.ejs" afterPath="$PROJECT_DIR$/views/side/home.ejs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/side/menu.ejs" afterPath="$PROJECT_DIR$/views/side/menu.ejs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,23 +1243,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Ca_con" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/side/user/login.js">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="left_menu.ejs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/admin/left_menu.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="passport.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/passport.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="109">
+              <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -40,21 +1260,120 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="ejs" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>consol</find>
+      <find>512</find>
+      <find>r</find>
+      <find>1111</find>
+      <find>bignum</find>
+      <find>inputIdentity</find>
+      <find>mul</find>
+      <find>sub</find>
+      <find>pow</find>
+      <find>div</find>
+      <find>array_rounter</find>
+      <find>fon</find>
+      <find>user</find>
+      <find>data</find>
+      <find>Id_user</find>
+      <find>s</find>
+      <find>html</find>
+      <find>&lt;/html&gt;</find>
+      <find>frames.png</find>
+      <find>bodyBg.png</find>
+      <find>users.png</find>
+      <find>product</find>
+      <find>auto_check_pages</find>
+      <find>new D</find>
+      <find>toLocaleString</find>
+      <find>cboxElement</find>
+      <find>lightbox</find>
+      <find>cert</find>
+      <find>img</find>
+      <find>length</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/routes/side/user/login.js" />
+        <option value="$PROJECT_DIR$/routes/side/home.js" />
+        <option value="$PROJECT_DIR$/views/index.ejs" />
+        <option value="$PROJECT_DIR$/views/error.ejs" />
+        <option value="$PROJECT_DIR$/views/side/header.ejs" />
+        <option value="$PROJECT_DIR$/var/private.text" />
+        <option value="$PROJECT_DIR$/var/public.text" />
+        <option value="$PROJECT_DIR$/var/test.js" />
+        <option value="$PROJECT_DIR$/config/config.js" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
+        <option value="$PROJECT_DIR$/views/side/user/login.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/dangky.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/home.ejs" />
+        <option value="$PROJECT_DIR$/model/list_ca.js" />
+        <option value="$PROJECT_DIR$/routes/side/user/home.js" />
         <option value="$PROJECT_DIR$/config/passport.js" />
+        <option value="$PROJECT_DIR$/views/side/user/donhang.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/menu.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/edit.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/menudoc.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/side/dangky.js" />
+        <option value="$PROJECT_DIR$/views/side/user/editPassword.ejs" />
+        <option value="$PROJECT_DIR$/routes/side/user/login.js" />
+        <option value="$PROJECT_DIR$/views/side/user/dangky_cert.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/ECC.js" />
+        <option value="$PROJECT_DIR$/routes/side/user/createCert.js" />
+        <option value="$PROJECT_DIR$/views/side/user/donHangDetail.ejs" />
+        <option value="$PROJECT_DIR$/views/side/user/private_key.ejs" />
+        <option value="$PROJECT_DIR$/public/javascripts/side/private_key.js" />
+        <option value="$PROJECT_DIR$/views/side/content.ejs" />
+        <option value="$PROJECT_DIR$/views/side/menu.ejs" />
+        <option value="$PROJECT_DIR$/views/side/home.ejs" />
+        <option value="$PROJECT_DIR$/public/stylesheets/side/home.css" />
+        <option value="$PROJECT_DIR$/routes/api/verifyCert.js" />
+        <option value="$PROJECT_DIR$/routes/admin/index.js" />
+        <option value="$PROJECT_DIR$/help/ECC/ECC.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/views/admin/footer.ejs" />
+        <option value="$PROJECT_DIR$/routes/side/user/donhang.js" />
+        <option value="$PROJECT_DIR$/routes/admin/cert.js" />
+        <option value="$PROJECT_DIR$/views/admin/cert/certDetail.ejs" />
+        <option value="$PROJECT_DIR$/router.js" />
+        <option value="$PROJECT_DIR$/routes/admin/home.js" />
+        <option value="$PROJECT_DIR$/views/admin/header.ejs" />
+        <option value="$PROJECT_DIR$/views/admin/user/userDetail.ejs" />
+        <option value="$PROJECT_DIR$/views/admin/user/listUser.ejs" />
+        <option value="$PROJECT_DIR$/routes/admin/user.js" />
+        <option value="$PROJECT_DIR$/views/admin/home.ejs" />
+        <option value="$PROJECT_DIR$/model/listCert.js" />
+        <option value="$PROJECT_DIR$/model/user.js" />
+        <option value="$PROJECT_DIR$/views/admin/user/addUser.ejs" />
+        <option value="$PROJECT_DIR$/views/admin/left_menu.ejs" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
     <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
@@ -64,11 +1383,11 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="7" />
-    <option name="y" value="3" />
-    <option name="width" value="1323" />
-    <option name="height" value="736" />
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="47" />
+    <option name="y" value="24" />
+    <option name="width" value="1317" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -79,12 +1398,13 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,37 +1415,44 @@
             <path>
               <item name="Ca_con" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ca_con" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="Ca_con" type="b2602c69:ProjectViewProjectNode" />
               <item name="Ca_con" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Ca_con" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ca_con" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="Ca_con" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Ca_con" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="routes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="side" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="admin" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/Document/Mon Hoc/2016-2017/project/web_antoan" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views/admin/user" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/public/javascripts" />
+      <recent name="$PROJECT_DIR$/public/stylesheets/admin" />
+      <recent name="$PROJECT_DIR$/public/images/admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/routes/side/user" />
+      <recent name="$PROJECT_DIR$/routes/side" />
+      <recent name="$PROJECT_DIR$/routes" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,11 +1466,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.www">
-    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin" />
+  <component name="RunManager" selected="Node.js.user.js">
+    <configuration name="ECC.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="ECC.js" working-dir="$PROJECT_DIR$/help/ECC" />
+    <configuration name="createCert.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="createCert.js" working-dir="$PROJECT_DIR$/routes/side/user" />
+    <configuration name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="index.js" working-dir="$PROJECT_DIR$/routes" />
+    <configuration name="listCert.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="listCert.js" working-dir="$PROJECT_DIR$/model" />
+    <configuration name="user.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="project" path-to-js-file="user.js" working-dir="$PROJECT_DIR$/model" />
+    <configuration name="www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" path-to-js-file="www" working-dir="$PROJECT_DIR$/bin" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.ECC.js" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js.createCert.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.index.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.listCert.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.user.js" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.www" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.user.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.listCert.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.ECC.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.createCert.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -158,34 +1502,89 @@
       <option name="presentableId" value="Default" />
       <updated>1517212701649</updated>
       <workItem from="1517212702927" duration="4141000" />
+      <workItem from="1517224870814" duration="12708000" />
+      <workItem from="1517278461996" duration="3919000" />
+      <workItem from="1517297713934" duration="5801000" />
+      <workItem from="1517324563577" duration="7219000" />
+      <workItem from="1517372907887" duration="8515000" />
+      <workItem from="1517395233225" duration="1022000" />
+      <workItem from="1517469112438" duration="1817000" />
+      <workItem from="1517485346363" duration="596000" />
+      <workItem from="1517555755861" duration="18291000" />
+      <workItem from="1517622158806" duration="2373000" />
+      <workItem from="1517624774124" duration="2264000" />
+      <workItem from="1517644594271" duration="10363000" />
+      <workItem from="1517655344241" duration="2651000" />
+      <workItem from="1518399722842" duration="13142000" />
+      <workItem from="1519089892392" duration="3375000" />
+      <workItem from="1519458891695" duration="7541000" />
+      <workItem from="1520405217876" duration="194000" />
+      <workItem from="1520409441504" duration="361000" />
+      <workItem from="1520410525902" duration="71000" />
+      <workItem from="1520410860981" duration="55000" />
+      <workItem from="1520411053762" duration="1490000" />
+      <workItem from="1521467625551" duration="7850000" />
+      <workItem from="1521681849403" duration="15578000" />
+      <workItem from="1521710064009" duration="1181000" />
+      <workItem from="1521772859189" duration="610000" />
+      <workItem from="1521943090559" duration="18955000" />
+      <workItem from="1521977692508" duration="11039000" />
+      <workItem from="1522074205559" duration="730000" />
+      <workItem from="1522075941630" duration="655000" />
+      <workItem from="1522774599459" duration="135000" />
+      <workItem from="1523973925343" duration="3672000" />
+      <workItem from="1523978679706" duration="5957000" />
+      <workItem from="1524014445310" duration="24000" />
+      <workItem from="1524113197715" duration="23598000" />
+      <workItem from="1524154599387" duration="701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4141000" />
+    <option name="totallyTimeSpent" value="207448000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="7" y="3" width="1323" height="736" extended-state="0" />
+    <frame x="47" y="24" width="1317" height="744" extended-state="4" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24940617" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1927616" sideWeight="0.46495327" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24552846" sideWeight="0.51060486" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813008" sideWeight="0.4941084" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30479184" sideWeight="0.5180723" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24552846" sideWeight="0.48939514" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3512195" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793402" sideWeight="0.53504676" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24552846" sideWeight="0.51060486" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30479184" sideWeight="0.5180723" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2813008" sideWeight="0.4941084" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24552846" sideWeight="0.48939514" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15184894" sideWeight="0.46495327" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30793402" sideWeight="0.53504676" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37886178" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -193,24 +1592,293 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add admin CÂ" />
+    <option name="LAST_COMMIT_MESSAGE" value="add admin CÂ" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="38" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/www">
+    <entry file="file://$PROJECT_DIR$/routes/side/user/createCert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/user/private_key.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="87" column="55" lean-forward="false" selection-start-line="87" selection-start-column="55" selection-end-line="87" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/user/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/side/dangkyCert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="90" column="52" lean-forward="true" selection-start-line="88" selection-start-column="7" selection-end-line="90" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/side/private_key.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/side/content.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="20" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/user/menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1888">
+          <caret line="118" column="19" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="153" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/content.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2208">
+          <caret line="138" column="9" lean-forward="false" selection-start-line="118" selection-start-column="0" selection-end-line="138" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" column="47" lean-forward="false" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/side/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1584">
+          <caret line="99" column="18" lean-forward="false" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/side/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/html_admin/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="732" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/admin/icons/dark/add.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/admin/css/img/arrow/1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/crown/js/charts/bar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/api/verifyCert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/ECC/ECC.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="358" column="0" lean-forward="true" selection-start-line="358" selection-start-column="0" selection-end-line="358" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="46" column="39" lean-forward="false" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-ui.min.js" />
+    <entry file="file://$PROJECT_DIR$/public/js/scipts.js" />
+    <entry file="file://$PROJECT_DIR$/public/javascripts/pagination.full.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/admin/icons/light/user.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/footer.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/var/private">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/db_model.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1264">
+          <caret line="79" column="23" lean-forward="false" selection-start-line="79" selection-start-column="23" selection-end-line="79" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/crown/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16704">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/crown/css/plugins.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/protocol/sequences/Sequence.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="51" column="13" lean-forward="false" selection-start-line="51" selection-start-column="13" selection-end-line="51" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/side/user/donhang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="32" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/views/side/user/donHangDetail.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="224">
+          <caret line="83" column="6" lean-forward="true" selection-start-line="67" selection-start-column="3" selection-end-line="83" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/side/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1428">
+          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/header.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="61" column="6" lean-forward="true" selection-start-line="61" selection-start-column="6" selection-end-line="61" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/html_admin/admin/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="266" column="24" lean-forward="false" selection-start-line="266" selection-start-column="21" selection-end-line="266" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/side/user/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/user/userDetail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="197" column="6" lean-forward="false" selection-start-line="197" selection-start-column="6" selection-end-line="199" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/user/listUser.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="150" column="45" lean-forward="true" selection-start-line="147" selection-start-column="6" selection-end-line="150" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/cert/certDetail.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="176" column="61" lean-forward="true" selection-start-line="176" selection-start-column="22" selection-end-line="176" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/help/send_mail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="37" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -218,30 +1886,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="33" column="39" lean-forward="false" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/side/user/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/passport.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="43" column="56" lean-forward="false" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/home.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="142" column="45" lean-forward="false" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/cert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/listCert.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="41" column="47" lean-forward="false" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="140" column="48" lean-forward="false" selection-start-line="140" selection-start-column="44" selection-end-line="140" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/user/addUser.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-944">
+          <caret line="52" column="10" lean-forward="false" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/admin/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/admin/left_menu.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
           <folding />
         </state>
       </provider>
